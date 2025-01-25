@@ -99,7 +99,14 @@ def static_files(filename):
     except Exception as e:
         print(f"Error serving static file {filename}: {e}")
         return jsonify({"error": "File not found"}), 404
-
+        
+@app.route("/download-annotations", methods=["GET"])
+def download_annotations():
+    annotations_zip = "annotations.zip"
+    # Create a zip file of the annotations directory
+    os.system(f"zip -r {annotations_zip} {ANNOTATIONS_DIR}")
+    # Serve the zip file for download
+    return send_from_directory(".", annotations_zip, as_attachment=True)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Default to 8000 if PORT is not set
