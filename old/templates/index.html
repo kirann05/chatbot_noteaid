@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Notes and Questions Evaluation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF8E1;
+            padding-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #D2691E;
+        }
+        .description-container {
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #FFECB3;
+            border: 1px solid #FFDAB9;
+            border-radius: 8px;
+            width: 80%;
+            margin: 10px auto;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+        .description {
+            display: none;
+            background-color: #FFF1E6;
+            border: 1px solid #FFDAB9;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+            border-radius: 8px;
+        }
+        .toggle-btn {
+            padding: 10px;
+            background-color: #FFA07A;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .toggle-btn:hover {
+            background-color: #FF8C69;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 8px auto;
+            width: 90%;
+            height: 80vh;
+            background-color: #FFF8E1;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .text-container, .question-container {
+            width: 48%;
+            overflow-y: auto;
+            padding: 15px;
+            background-color: #FFFAF0;
+            border-radius: 8px;
+            border: 1px solid #FFDAB9;
+            height: 95%;
+        }
+        .content-page {
+            margin-bottom: 20px;
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        .pagination-controls {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .question-item {
+            margin-bottom: 10px;
+            background-color: #FFF1E6;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .comment-box {
+            margin-top: 10px;
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #FFDAB9;
+            padding: 5px;
+            background-color: #FFF8E1;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Medical Notes and Questions Evaluation</h1>
+
+    <!-- Login for Annotator -->
+    <div id="login">
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" placeholder="Your name">
+        <button id="startBtn">Start Annotating</button>
+        <!-- <button id="loadBtn">Load Previous Annotations</button> -->
+    </div>
+
+    <!-- Description and Toggle Button -->
+     <div id="annotationTool" style="display: none;">
+        <div class="description-container">
+        <button class="toggle-btn" onclick="toggleDescription()">Toggle Instructions</button>
+        <div class="description" id="description">
+            <h3>Guidelines for Evaluators</h3>
+            <ol>
+                <li>You are going to evaluate 5-10 questions for each discharge note.</li>
+                <li>These questions are going to be clinically “relevant” and also important for the patient.</li>
+                <li>What is considered “relevant” is as follows:
+                    <ul>
+                        <li>i) It has to be acknowledged in the discharge note</li>
+                        <li>ii) It has to be concerned with the current health issues for that particular stay</li>
+                        <li>iii) It has to be concerned with instructions from the medical doctor</li>
+                        <li>iv) The categories that you could consider for the questions could be asked from in such categories:
+                            <ul>
+                                <li>Diagnosis during hospital stay</li>
+                                <li>Procedure (interventions/tests) during hospital stay</li>
+                                <li>Medication during hospital stay</li>
+                                <li>Diagnosis in discharge</li>
+                                <li>Procedure (follow-up/tests/interventions) after discharge</li>
+                                <li>Medication after discharge</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>How to evaluate:
+                    <ul>
+                        <li>i) If you think the question is okay, please check relevant.</li>
+                        <li>ii) If you consider that the question itself needs to be totally removed or changed, please check irrelevant.</li>
+                        <li>iii) If you consider the question is okay but needs some modification, please check modify and leave a comment below on how we should change the question.</li>
+                    </ul>
+                </li>
+
+                <li>How to Save and start from where you left off:
+                    <ul>
+                        <li>i) First make sure you push the "Save" button. </li>
+                        <li>ii) Next time you login, it will automatically load your annotation history and you can start from where you left off</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div id="content"></div>
+
+    <div class="pagination-controls">
+        <button id="prevBtn" style="display: none;">Previous</button>
+        <button id="nextBtn" style="display: none;">Next</button>
+    </div>
+
+    <div class="pagination-controls">
+         <button onclick="saveAnnotations()">Save</button>
+    </div>
+</div>
+
+
+    <script>
+        let = username = "";
+        let currentPage = 0;
+        let dataset = [];
+        let contentDiv = document.getElementById("content");
+        let totalPages = 0;
+        let totalQuestions = 0;
+        let annotations = [] ;
+
+        document.getElementById("startBtn").addEventListener("click", () => {
+            username = document.getElementById("username").value.trim();
+            if (username) {
+                // loadDataset();
+                loadAnnotations();
+            } else {
+                alert("Please enter your name to proceed.");
+            }
+        });
+
+        // document.getElementById("loadBtn").addEventListener("click", () => {
+        //     username = document.getElementById("username").value.trim();
+        //     if (username) {
+        //         loadAnnotations();
+        //     } else {
+        //         alert("Please enter your name to proceed.");
+        //     }
+        // });
+
+        function toggleDescription() {
+            let description = document.getElementById("description");
+            description.style.display = description.style.display === "none" || description.style.display === "" ? "block" : "none";
+        }
+
+
+        function loadDataset() {
+            fetch(`/get-data?username=${username}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error){
+                        alert(data.error);
+                        return;
+                    }
+                    dataset = data;
+                    // annotations = dataset.map(() => []);
+                    document.getElementById("login").style.display = "none";
+                    document.getElementById("annotationTool").style.display = "block";
+                    generateContent();
+                    showPage(currentPage);
+                });
+        }
+
+        function loadAnnotations() {
+            fetch(`/load-annotations?username=${username}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        annotations = data;
+                        loadDataset(); // Load dataset and populate annotations
+                    } else {
+                        alert("No previous annotations found. Starting fresh.");
+                        loadDataset();
+                    }
+                });
+        }
+
+        function generateContent() {
+            dataset.forEach((row, rowIndex) => {
+                if (row.text && row.questions) {
+                    let textDiv = document.createElement("div");
+                    textDiv.classList.add("content-page");
+                    textDiv.setAttribute('data-page', rowIndex);
+
+                    let container = document.createElement("div");
+                    container.classList.add("container");
+
+                    let textContainer = document.createElement("div");
+                    textContainer.classList.add("text-container");
+                    textContainer.innerHTML = `<p>${row.text.replace(/\n/g, "<br>")}</p>`;
+
+                    let questionContainer = document.createElement("div");
+                    questionContainer.classList.add("question-container");
+
+                    let questions = row.questions.split("|");
+                    let ul = document.createElement("ul");
+
+                    questions.forEach((question, questionIndex) => {
+                        let annotation = annotations[rowIndex]?.[questionIndex] || {};
+                        console.log(annotation)
+                        let li = document.createElement("li");
+                        let br = document.createElement("br");
+                        li.classList.add("question-item");
+                        li.innerHTML = question.replace(/\n/g,"<br>");
+                        li.appendChild(br);
+
+                        let okayLabel = document.createElement("label");
+                        okayLabel.innerHTML = `<input type="radio" name="choice-${rowIndex}-${questionIndex}" value="0" ${annotation.choice === "0" ? "checked" : ""}> Relevant`;
+
+                        let notOkayLabel = document.createElement("label");
+                        notOkayLabel.innerHTML = `<input type="radio" name="choice-${rowIndex}-${questionIndex}" value="1" ${annotation.choice === "1" ? "checked" : ""}> Irrelevant`;
+
+                        let modifyLabel = document.createElement("label");
+                        modifyLabel.innerHTML = `<input type="radio" name="choice-${rowIndex}-${questionIndex}" value="2" ${annotation.choice === "2" ? "checked" : ""}> Modify`;
+
+                        li.appendChild(okayLabel);
+                        li.appendChild(modifyLabel);
+                        li.appendChild(notOkayLabel);
+
+                        let questionCommentBox = document.createElement("textarea");
+                        questionCommentBox.classList.add("comment-box");
+                        questionCommentBox.placeholder = `Comment on this question...`;
+                        questionCommentBox.name = `question-comment-${rowIndex}-${questionIndex}`;
+                        questionCommentBox.value = annotation.comment || "";
+
+                        li.appendChild(questionCommentBox);
+                        ul.appendChild(li);
+
+                        // add question counts
+                        totalQuestions++;
+                    });
+
+                    questionContainer.appendChild(ul);
+                    container.appendChild(textContainer);
+                    container.appendChild(questionContainer);
+                    textDiv.appendChild(container);
+                    contentDiv.appendChild(textDiv);
+                }
+            });
+        }
+
+        function showPage(pageIndex) {
+            let pages = document.querySelectorAll('.content-page');
+            pages.forEach((page, index) => {
+                page.style.display = index === pageIndex ? 'block' : 'none';
+            });
+
+            document.getElementById('prevBtn').style.display = pageIndex === 0 ? 'none' : 'inline';
+            document.getElementById('nextBtn').style.display = pageIndex === (dataset.length - 1) ? 'none' : 'inline';
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if (currentPage < dataset.length - 1) {
+                currentPage++;
+                showPage(currentPage);
+            }
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentPage > 0) {
+                currentPage--;
+                showPage(currentPage);
+            }
+        });
+
+        // function saveAnnotations() {
+        //     const currentQuestions = document.querySelectorAll(".content-page[data-page='" + currentPage + "'] .question-item");
+        //     annotations[currentPage] = [...currentQuestions].map((question, index) => ({
+        //         choice: question.querySelector(`input[name="choice-${currentPage}-${index}"]:checked`)?.value || null,
+        //         comment: question.querySelector("textarea").value.trim() || null
+        //     }));
+
+        //     fetch("/save-annotations", {
+        //         method: "POST",
+        //         headers: { "Content-Type": "application/json" },
+        //         body: JSON.stringify({ username, annotations })
+        //     }).then(response => response.json())
+        //       .then(data => alert(data.message));
+        // }
+
+        function saveAnnotations() {
+            annotations = []; // Reset the annotations array to store all pages' data.
+
+            // Iterate over all content pages
+            const allPages = document.querySelectorAll(".content-page");
+            allPages.forEach((page, pageIndex) => {
+                const questions = page.querySelectorAll(".question-item");
+                annotations[pageIndex] = [...questions].map((question, questionIndex) => ({
+                    choice: question.querySelector(`input[name="choice-${pageIndex}-${questionIndex}"]:checked`)?.value || null,
+                    comment: question.querySelector("textarea").value.trim() || ""
+                }));
+            });
+
+            // Send the annotations to the server
+            fetch("/save-annotations", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, annotations })
+            }).then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                console.error("Error saving annotations:", error);
+                alert("An error occurred while saving annotations.");
+            });
+        }
+
+
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,1721 @@
+note_id,subject_id,hadm_id,note_type,note_seq,charttime,storetime,text,questions,feedback
+report7221,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOLOGY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[VVV M. UUU] , M.D.
+ADMISSION DATE : **DATE[ Jul 12 2007] DISCHARGE DATE : **DATE[ Jul 13 2007] DISCHARGE DIAGNOSES : 1 .
+Atypical chest pain , troponins negative , V/ Q negative for pulmonary emboli , thought to be etiology relating to esophagus . 2.
+Leukocytosis , now resolved . 3.
+Status post orthotopic heart transplantation in 2004 . 4 .
+Chronic renal insufficiency . 5 .
+Diabetes mellitus . 6 .
+Chronic nausea and vomiting . 7.
+Dyslipidemia .
+REASON FOR ADMISSION : This is a **AGE[in 40s]-year-old female with a past medical history significant for orthotopic heart transplantation in 2004 and a history of atypical chest pain recently admitted in **DATE[Feb 2007] , renal insufficiency , diabetes , dyslipidemia , hypertension , and chronic nausea and vomiting .
+She presented with chest pain following a revision of her Port-A-Cath on **DATE[ Jul 5 2007] .
+She describes a consistence several days across the chest .
+LABORATORIES AND DIAGNOSTIC PROCEDURES : Cardiac enzymes negative x3 , glucose 208 , sodium 142 , potassium 4.5 , chloride 104 , CO2 24 , BUN 35 , and creatinine 1.5 .
+WBC is 9.8 , H and H are 11.6 and 34.4 , and platelets 294,000 .
+Magnesium 1.5 , triglycerides 167 , HDL 34 , LDL 68 , total cholesterol 129 , ALT 33 , AST 24 , alkaline phosphatase 100 , and GGTP 83 .
+HOSPITAL COURSE : The patient is admitted to the Cardiac Pavilion Service at 4D as stated above .
+She ruled out for myocardial infarction .
+Her enzymes were negative .
+Her last left heart catheterization was a year ago in **DATE[ Jul 2006 ] which revealed mild coronary artery disease .
+She recently had her Infuse-A-Port revised on **DATE[ Jul 5 2007] , by Dr. **NAME[TTT SSS] , so General Surgery was consulted , looked at the port and ruled out infection or dislocation .
+A CT of the chest was negative for pulmonary emboli .
+It was felt that she will require an EGD.
+She has a questionable history of Zenker diverticulum and chronic nausea and vomiting .
+It was felt that she would benefit from an evaluation by GI and have an EGD done .
+She had a leukocytosis ; WBCs peaked at 11 , and low-grade temperature since she resolved her temperature and leukocytosis .
+She is status post orthotopic heart transplantation in 2004 .
+By exam , she was euvolemic .
+Her last echocardiogram was in **DATE[ May 2007] with a normal LV size and function , mildly dilated RV with normal function , mild AR , moderate MR , moderate to severe TR , severe biatrial enlargement , moderate pulmonary hypertension , PAF at 54 .
+She was continued on the same immunosuppression .
+They remained unchanged as Prograf , Rapamune , and Bactrim .
+She has a history of renal insufficiency .
+Her creatinines remained at her baseline , which is 1.5 .
+She is currently on Bumex .
+She has chronic nausea and vomiting and a poor appetite .
+She will follow up with GI in 1 week .
+She has been evaluated by GI in the past .
+She currently is on Reglan .
+She has diabetes mellitus ; HA1c is 7.5.
+She is on Byetta and Amaryl at home .
+She has dyslipidemia .
+We will continue her Lipitor .
+LFTs within normal limits .
+DISCHARGE INSTRUCTIONS : The patient has been discharged home in stable condition .
+Diet is a cardiac diet , 2 g sodium restriction .
+Her activity is as tolerated .
+She is to follow up with her PCP in 2 to 3 weeks , Dr. **NAME[RRR] , **PHONE.
+She is to see Dr. **NAME[ZZZ/QQQ] , **PHONE , fax **PHONE in the **INSTITUTION in 3 to 4 weeks .
+These orders will be faxed to **PHONE.
+She also should see Gastroenterology in the past .
+She has been seen by Dr. **NAME[PPP] and Dr. **NAME[OOO] .
+She should see them in 1 week , **PHONE.
+ALLERGIES : AMOXICILLIN , ADHESIVE TAPE , AND ACE INHIBITOR .
+DISCHARGE MEDICATIONS : 1 .
+Allopurinol 300 mg p.o . nightly . 2.
+Lipitor 40 mg p.o . nightly . 3.
+Bumex 4 mg p.o . daily . 4 .
+Neurontin 200 mg p.o . b.i.d . 5 .
+Amaryl 2 mg q.a.m . 6 .
+Reglan 10 mg 4 times a day . 7.
+Rapamune 1 mg daily . 8.
+Bactrim 1 tablet Monday , Wednesday , and Friday . 9 .
+Prograf 2 mg b.i.d . 10 .
+Byetta as previously prescribed . 11 .
+Aranesp 60 mcg subcutaneous weekly as previously prescribed .
+She should have blood work done as prescribed by Cardiothoracic Transplant and Port-A-Cath care at the site .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[VVV M. UUU] , M.D.
+
+Dictator : **NAME[WWW XXX] , C.R.N.P. KB/ss D : **DATE[ Jul 13 2007] 11:26 :21 T : **DATE[ Jul 14 2007] 00:31:01 R: **DATE[ Jul 14 2007] 00:31:01/ss Job ID : 345257/**ID-NUM CC :
+
+*** Dictated By : -**NAME[XXX , NNN] *** Electronically Signed by **NAME[VVV UUU] **DATE[ Jul 23 2007] 08:55 :46 AM
+
+
+
+
+","1) What was the primary reason for your hospital admission?
+a) Atypical chest pain (Answer)
+b) High fever (Distractor)
+c) Difficulty breathing (Irrelevant)
+|
+2) What medical history is notable in relation to your hospital admission?
+a) Orthotopic heart transplantation in 2004 (Answer)
+b) Recent knee surgery (Distractor)
+c) Thyroid disorder (Irrelevant)
+|
+3) What cardiac condition was ruled out during your hospital stay?
+a) Myocardial infarction (Answer)
+b) Severe hypertension (Distractor)
+c) Arrhythmia (Irrelevant)
+|
+4) Which test was negative for pulmonary embolism?
+a) V/Q scan (Answer)
+b) MRI (Distractor)
+c) Echocardiogram (Irrelevant)
+|
+5) What was done to evaluate your Port-A-Cath?
+a) Consultation with General Surgery (Answer)
+b) Immediate removal (Distractor)
+c) Ultrasound (Irrelevant)
+|
+6) Which specialist will you follow up with for your gastrointestinal symptoms?
+a) Gastroenterology (Answer)
+b) Neurology (Distractor)
+c) Orthopedics (Irrelevant)
+|
+7) What medication was continued for your dyslipidemia?
+a) Lipitor (Answer)
+b) Aspirin (Distractor)
+c) Byetta (Irrelevant)
+|
+8) What dietary recommendation was given upon discharge?
+a) Cardiac diet with 2 g sodium restriction (Answer)
+b) High-protein diet (Distractor)
+c) No dietary restrictions (Irrelevant)
+|
+9) What condition was identified in your echocardiogram?
+a) Mildly dilated RV with normal function (Answer)
+b) Severe LV dysfunction (Distractor)
+c) No cardiac abnormalities (Irrelevant)
+|
+10) What medication was prescribed for your chronic nausea and vomiting?
+a) Reglan (Answer)
+b) Neurontin (Distractor)
+c) Allopurinol (Irrelevant)",
+report1013,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION TRANSPLANT SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[XXX M ZZZ YYY] ADMISSION DATE : **DATE[Apr 06 2007] DISCHARGE DATE : **DATE[Apr 10 2007] ADMISSION DIAGNOSES : 1 .
+STATUS POST CADAVERIC LIVER TRANSPLANT ON **DATE[ Mar 7 2007] , SECONDARY TO __ _ _ _ _ _ _ _ _ ( PMCE) . 2.
+RECENT CHANGE IN IMMUNOSUPPRESSION FROM PROGRAF TO CYCLOSPORIN.
+DISCHARGE DIAGNOSES : 1 .
+STATUS POST CADAVERIC LIVER TRANSPLANT ON **DATE[ Mar 7 2007] , SECONDARY TO __ _ _ _ _ _ _ _ _ ( PMCE) . 2.
+MILD ACUTE CELLULAR REJECTION OF LIVER TRANSPLANT.
+HISTORY OF PRESENT STAY : Mr. **NAME[AAA ] is a **AGE[in 40s]-year-old male who underwent a cadaveric liver transplant **DATE[ Mar 7 2007] , secondary to alcoholic cirrhosis .
+He had a fairly routine postoperative course .
+He was recently readmitted on **DATE[Apr 1]st with vague neurologic symptoms , including headache , slurred speech , and tremors .
+He had a neurologic workup this time , including CT scan and the neuro workup was negative .
+It was decided to take him off of Prograf and switch him over to cyclosporin , assuming that Prograf was the cause of these neuro side effects .
+We also added him on CellCept 1 g p.o . b.i.d . at that time .
+He was discharged 2 days later on **DATE[Apr 3]rd .
+On **DATE[Apr 6]th , he was readmitted with an elevation of his liver function tests .
+When his Prograf and cyclosporin levels were both checked on admission , the Prograf was negative and the cyclosporin was also less than 45 .
+We immediately increased his cyclosporin dose and scheduled him for a liver biopsy .
+He underwent liver biopsy on **DATE[Apr 6]th and it showed cholestasis , bile ductular proliferation with mixed portal and spotty lobular inflammation , and focal mild portal edema .
+It also showed mild acute cellular rejection with an REI of 3 out of 9 .
+The biopsy results were delayed by a day due to a mistake with either radiology or pathology lab with locating the sample .
+Two days after biopsy was taken , the results came back .
+He was then treated with Solu-Medrol 1 g IV x1 dose .
+We also maximized his cyclosporin .
+After the gram of Solu-Medrol , Mr. **NAME[AAA ] experienced hyperglycemia .
+He had blood sugars that maximized at 440 .
+He was put on a moderate dose insulin sliding scale to treat the side effects of the Solu-Medrol .
+He tolerated the insulin well and within 24 hours , had a significant decline in his blood sugars to normal levels in the 150s and 160s .
+Today , he is being discharged with a level of 153 this morning .
+DISCHARGE INSTRUCTIONS : He will be discharged to home with cyclosporin 350 mg p.o . b.i.d . and CellCept 1000 mg p.o . b.i.d .
+He will also be sent home on a 2-week course of Keflex due to a small opened area of his incision that has some erythema .
+He will be following up in the **INSTITUTION in 2 days .
+DISCHARGE MEDICATIONS : 1 .
+Cyclosporin 350 mg p.o . b.i.d . 2.
+CellCept 1000 mg p.o . b.i.d . 3.
+Bactrim-SS 1 tab p.o . every Monday , Wednesday , and Friday . 4 .
+Nystatin 5 mL swish and swallow p.o . b.i.d . 5 .
+Protonix 40 mg p.o . daily . 6 .
+Magnesium gluconate 1500 mg p.o . t.i.d . 7.
+Zoloft 50 mg p.o . daily . 8.
+Keflex 500 mg p.o . 4 times a day x12 days .
+The patient is being discharged to home .
+DISCHARGE DIAGNOSIS : MILD ACUTE CELLULAR REJECTION OF LIVER TRANSPLANT.
+DIET : He is to follow a regular diet .
+ACTIVITY : As tolerated .
+FOLLOW UP : He is to follow up in the **INSTITUTION on Friday , **DATE[Apr 12 2007] , at 8 a.m. and **NAME[TTT] M.D. if temperature greater than 101.5 degrees Fahrenheit or worsening headache .
+The attending physician discharging this patient is **NAME[SSS RRR] , M.D. , and this discharge took greater than 30 minutes .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[XXX M ZZZ YYY] , M.D.
+
+Dictator : **NAME[UUU M. WWW , VVV-M] **INITIALS D : **DATE[Apr 10 2007] 12:28:15 T : **DATE[Apr 10 2007] 16 :22:20 R: **DATE[Apr 11 2007] 15 :00:29/mp Job ID : 340470/**ID-NUM ADDENDUM In my discharge summary Mr. **NAME[AAA ] was discharged on **DATE[Apr 10 2007] on cyclosporin 350 mg p.o . b.i.d .
+This was changed immediately before his discharge and he is being discharged instead on cyclosporin 400 mg p.o . b.i.d . due to a low level that was late coming back with his a.m. labs .
+He was given a prescription for this and the change was noted on his discharge orders . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[XXX M ZZZ YYY]
+
+Dictator : **NAME[UUU M. WWW , VVV-M] **INITIALS D : **DATE[Apr 10 2007] 12:47 :17 T : **DATE[Apr 10 2007] 15 :45 :51 R: **DATE[Apr 11 2007] 14:58:55/mp Job ID : 340525/**ID-NUM Cc :
+
+*** Dictated By : -**NAME[WWW , VVV-QQQ M] . *** Electronically Signed by **NAME[XXX CCC] **DATE[Apr 22 2007] 12:56 :22 PM
+
+
+
+
+","1) What was the primary reason for your hospital admission?  
+a) Mild acute cellular rejection of liver transplant (Answer)  
+b) Severe kidney failure (Distractor)  
+c) Respiratory infection (Irrelevant)  
+|
+2) What medication change was made due to neurologic side effects?  
+a) From Prograf to Cyclosporin (Answer)  
+b) From Cyclosporin to Tacrolimus (Distractor)  
+c) From CellCept to Prograf (Irrelevant)  
+|
+3) What procedure did you undergo during this hospital stay?  
+a) Liver biopsy (Answer)  
+b) Heart catheterization (Distractor)  
+c) Gastric bypass (Irrelevant)  
+|
+4) What treatment was given for the mild acute cellular rejection?  
+a) Solu-Medrol 1 g IV (Answer)  
+b) High-dose antibiotics (Distractor)  
+c) Blood transfusion (Irrelevant)  
+|
+5) What side effect did you experience after receiving Solu-Medrol?  
+a) Hyperglycemia (Answer)  
+b) Severe headache (Distractor)  
+c) Allergic rash (Irrelevant)  
+|
+6) What was the change in your Cyclosporin dosage at discharge?  
+a) 400 mg p.o. b.i.d. (Answer)  
+b) 200 mg p.o. daily (Distractor)  
+c) 300 mg p.o. once daily (Irrelevant)  
+|
+7) What symptom requires you to contact a doctor immediately?  
+a) Temperature greater than 101.5°F (Answer)  
+b) Mild fatigue (Distractor)  
+c) Coughing (Irrelevant)  
+|
+8) What antibiotic was prescribed due to an open area of the incision?  
+a) Keflex (Answer)  
+b) Amoxicillin (Distractor)  
+c) Ciprofloxacin (Irrelevant)
+|  
+9) What is your dietary recommendation after discharge?  
+a) Regular diet (Answer)  
+b) Low-carb diet (Distractor)  
+c) High-protein diet (Irrelevant)  
+|
+10) When is your follow-up appointment scheduled?  
+a) Friday, April 12, 2007 (Answer)  
+b) Tuesday, April 10, 2007 (Distractor)  
+c) Monday, April 15, 2007 (Irrelevant)  ",
+report707,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOTHORACIC SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY M ZZZ] ADMISSION DATE : **DATE[Oct 11 2007] DISCHARGE DATE : **DATE[Oct 17 2007] HISTORY OF PRESENT ILLNESS : The patient is a **AGE[in 50s]-year-old female who has been overweight most of her life .
+The patient was seen originally in **DATE[ Mar 2007] for gastric bypass and had a workup completed including sleep apnea study , sonogram , which showed gallstones , lower extremity DVT study , which was negative , and nutrition and psychiatric evaluation .
+The patient was evaluated in **DATE[Aug] by Dr. **NAME[ZZZ] , and at this time it has been decided that she would be an adequate candidate for a gastric bypass as well as a cholecystectomy by Dr. **NAME[VVV] .
+The patient agreed for the procedure .
+HOSPITAL COURSE : The patient was taken to the operating room on **DATE[Oct 10 2007] , and under the direct supervision of Dr. **NAME[YYY ZZZ] a laparoscopic Roux-en-Y gastric bypass was performed .
+Then under the direct supervision of Dr. **NAME[UUU VVV] a laparoscopic cholecystectomy was performed .
+The patient tolerated the procedure well .
+He was transferred back to the Seventh Floor in stable condition .
+On postprocedure day # 1 , the patient underwent a barium swallow , which showed no leak or obstruction .
+The patient was started on a phase-1 gastric bypass diet .
+Over the course of the next several days , the patient did begin to develop a small white blood cell count up to 11.9 and on **DATE[Oct 15 2007] it was 12.5 .
+UACNS was performed , which did reveal positive UTI.
+The patient did also develop some shortness of breath and a CT scan to rule out PE was performed which was negative for a PE.
+On **DATE[Oct 16 2007] , the patient developed some bilious drainage around the Jackson-Pratt site in the left upper quadrant of the abdomen .
+A CT scan of the abdomen and pelvis was performed , which was negative for a leak as well as a barium swallow , which was performed which showed no leak or obstruction .
+The patient was started on antibiotics for her UTI , __ _ _ _ _ _ _ _ _ this time has been afebrile and will be discharged home today .
+DISCHARGE INSTRUCTIONS : The patient is being discharged home today status post laparoscopic Roux-en-Y gastric bypass and cholecystectomy .
+Her condition is stable .
+She is to follow a phase-1 gastric bypass diet .
+She is to call us with a temperature of 101 degrees , a low-grade temp of 99 or higher , fever , chills , swelling , massive drainage at the incision sites , new or increased shortness of breath , new onset chest pain , dysphagia , or change in the amount or consistency of the Jackson-Pratt drainage .
+DISCHARGE MEDICATIONS : 1 .
+Roxicet elixir 5 to 10 mL p.o . q.4 hours p.r.n . 2.
+Zantac elixir 150 mg p.o . b.i.d . 3.
+Multivitamin with iron 1 to 2 tablets p.o . q . day . 4 .
+Tums 2 tablets p.o . q . day . 5 .
+Augmentin elixir 250 mg/5 mL , 10 mL p.o . b.i.d . x5 days . 6 .
+Vitamin B12 injection 1000 mcg IM q.4-6 weeks to per performed by her primary care physician .
+Home Health has been consulted for Jackson-Pratt care and she will follow up with Dr. **NAME[ZZZ] on **DATE[Oct 23 2007] , at the **INSTITUTION at 1:15 for a barium swallow with an appointment .
+After that she should follow up with Dr. **NAME[TTT VVV] in 2 weeks for a postop check .
+CONDITION ON DISCHARGE : Her condition at the time discharge was stable . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY M ZZZ]
+
+Dictator : **NAME[WWW XXX] , C.R.N.P. **INITIALS D : **DATE[Oct 17 2007] 08:07 :57 T : **DATE[Oct 17 2007] 16 :14 :50 R: **DATE[Oct 17 2007] 16 :14 :50/ja Job ID : 349396/**ID-NUM Cc : &lt ;start header&gt ; PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM ADMISSION DATE : **DATE[Oct 11 2007] DISCHARGE DATE : **DATE[Oct 17 2007] Page 2 of 3 &lt ;end header&gt ;
+
+*** Dictated By : -**NAME[XXX , SSS] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Nov 01 2007] 12:15 :21 PM
+
+
+
+
+","1) What procedures did you have during your hospital stay?  
+   a) Laparoscopic Roux-en-Y gastric bypass and cholecystectomy (Answer)  
+   b) Appendectomy and gallstone removal (Distractor)  
+   c) Heart surgery (Irrelevant)  
+|
+2) What diet should you follow after discharge?  
+   a) Phase-1 gastric bypass diet (Answer)  
+   b) High-protein diet (Distractor)  
+   c) Regular diet (Irrelevant)  
+|
+3) What symptom should make you contact a healthcare provider immediately after discharge?  
+   a) Fever, chills, or drainage at the incision sites (Answer)  
+   b) Mild fatigue (Distractor)  
+   c) Occasional headache (Irrelevant)  
+|
+4) What type of drainage was noticed around your Jackson-Pratt site?  
+   a) Bilious drainage (Answer)  
+   b) Bloody drainage (Distractor)  
+   c) Clear fluid (Irrelevant)  
+|
+5) What pain medication were you prescribed after discharge?  
+   a) Roxicet elixir (Answer)  
+   b) Ibuprofen (Distractor)  
+   c) Aspirin (Irrelevant)  
+|
+6) What did the barium swallow test show on postprocedure day 1?  
+   a) No leak or obstruction (Answer)  
+   b) Minor obstruction (Distractor)  
+   c) Severe leakage (Irrelevant)  
+|
+7) When is your follow-up barium swallow appointment scheduled?  
+   a) October 23, 2007 (Answer)  
+   b) November 1, 2007 (Distractor)  
+   c) December 15, 2007 (Irrelevant)  
+|
+8) Who should administer your vitamin B12 injections after discharge?  
+   a) Primary care physician (Answer)  
+   b) Cardiologist (Distractor)  
+   c) Patient’s neighbor (Irrelevant)  
+|
+9) What should you do if there is a change in the amount or consistency of the Jackson-Pratt drainage?  
+   a) Contact your healthcare provider (Answer)  
+   b) Ignore it and continue normal activities (Distractor)  
+   c) Apply ice packs (Irrelevant)  
+|
+10) What home care service was arranged for you?  
+    a) Home Health for Jackson-Pratt care (Answer)  
+    b) Physiotherapy sessions (Distractor)  
+    c) Weekly dental visits (Irrelevant)  ",
+report3176,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION GENERAL MEDICINE DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY M ZZZ] ADMISSION DATE : **DATE[ Dec 26 2007] DISCHARGE DATE : **DATE[ Dec 29 2007] ADMITTING DIAGNOSIS : Hepatic encephalopathy .
+CONDITION : Stable .
+HISTORY OF PRESENT ILLNESS : The patient is a **AGE[in 40s]-year-old male with alcoholic cirrhosis and end-stage liver disease who presented with a 2-day history of shaking .
+It had started as a right-hand shaking and then progressively worsened over 2 days .
+This is similar to the past hospitalizations for hepatic encephalopathy .
+His most recent ammonia level is 65 .
+The patient was admitted in order to give increased lactulose and monitor .
+The patient did not have any signs of SBP including ascites .
+His condition was stable .
+We increased his lactulose to q.3 h . p.r.n . with appropriate resolution of symptoms .
+On the day of discharge , his shaking had stopped , although he was complaining of increased bowel movements which is an acceptable side effect of lactulose and to be expected .
+The patient was discharged in stable condition with his tremor resolved and had a followup on **DATE[ Jan 3 2008] , to see his gastroenterologist .
+For the rest of the hospital course , please see the hospital course by systems .
+IMAGING : None .
+LABORATORY DATA : The patient 's sodium and potassium were within normal limits .
+His magnesium was low at 1.1 to 1.0, within the hospital __ _ _ _ _ _ _ _ his diarrhea , his Mag-Ox was increased .
+His white count was 7.6 to 11.6 .
+He was Hemoccult-negative .
+His ALT was 45 and then 51 .
+The AST was 63 and then 52 .
+He did have an increased lactate on admission 3.9 decreased to 2.0.
+His NH3 was 65 and on the day of discharge 77 .
+HOSPITAL COURSE : By systems . 1 .
+GI.
+The patient 's tremors most likely due to his hepatic disease and increasing ammonia levels similar with past admissions .
+His lactulose was increased to q.3 h .
+He was previously taking it 2 to 3 times a day .
+He had increased bowel movements and decreased symptoms .
+This is to be expected .
+He is to continue on q.3 to q.4 h . lactulose as an outpatient .
+He is to follow up with his gastroenterologist on **DATE[ Jan 3 2008] .
+The patient is not currently on the transplant list , although he has stopped drinking for the last 6 years .
+The patient does smoke a half pack per day and has been told he is not a candidate until he quits .
+We have discussed this issue with him and reiterated the importance of a transplant for his future prognosis . 2.
+Neuro .
+The patient was symptomatic with tremor which seemed directly related and similar to the past incidents of hepatic encephalopathy .
+His ammonia level is elevated .
+Lactulose is maximized .
+He is also maximized on neomycin and rifaximin , and thus there is not a lot else we can do with his medications .
+His next best option is a transplant , and we have discussed that in the previous issue . 3.
+CV/Heme .
+The patient 's blood pressure is controlled .
+He had no significant heme issues .
+His hemoglobin was stable . 4 .
+ID.
+The patient was afebrile without leukocytosis .
+Today on discharge , he did have a white count of 11.6 with no increasing signs of infection .
+He did not have ascites and thus do not need a tap to rule out SBP.
+Additionally , he did not have any other signs of SBP. 5 .
+GU.
+No issues . 6 .
+Neuro .
+The patient did not complain of pain issues .
+He was maintained on his chronic outpatient medication .
+The patient has chronic low back pain issues .
+DISCHARGE INSTRUCTIONS : The patient is discharged in stable condition and told to return for nausea , vomiting , fever , worsening chest pain , worsening tremor , or any other significant symptoms .
+He is to follow up with the gastroenterologist on **DATE[ Jan 3 2008] , and to attempt to quit smoking or drinking while on the transplant list .
+DISCHARGE MEDICATIONS : 1 .
+Lactulose 30 mL p.o . q.4 h . 2.
+Bactrim 1 tablet p.o . q . day . 3.
+Gabapentin 300 mg p.o . at lunch . 4 .
+Gabapentin 400 mg p.o . q.a.m . and q.p.m . 5 .
+Quinine 200 mg p.o . q . day . 6 .
+Furosemide 30 mg p.o . q . day . 7.
+Magnesium oxide 800 mg p.o . b.i.d . 8.
+Protonix 40 mg p.o . q . day . 9 .
+Spironolactone 100 mg p.o . q . day . 10 .
+Nadolol 20 mg p.o . q . day . 11 .
+MS Contin 30 mg p.o . b.i.d . 12 .
+Neomycin 500 mg p.o . t.i.d . 13 .
+Rifaximin 400 mg p.o . t.i.d . 14 .
+Compazine 10 mg p.o . q.6 h . p.r.n . 15 .
+Colace 100 mg p.o . b.i.d . 16 .
+Tizanidine 4 mg p.o . q.6 h . 17 .
+Vicodin 1 tablet p.o . q.4 h . p.r.n . 18 .
+Klonopin 0.5 mg p.o . b.i.d . p.r.n . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY M ZZZ]
+
+Dictator : **NAME[WWW XXX] , M.D.
+AS/fk D : **DATE[ Dec 29 2007] 20:40:09 T : **DATE[ Dec 29 2007] 22:39:48 R: **DATE[ Dec 29 2007] 22:39:48/fk Job ID : 367181/**ID-NUM Cc : &lt ;start footer&gt ; &lt;END FOOTER&gt ;
+
+*** Dictated By : -**NAME[XXX , RRR] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Jan 02 2008 ] 01:26 :44 PM
+
+
+
+
+","
+1) Why were you admitted to the hospital?
+   a) Hepatic encephalopathy (Answer)  
+   b) Chronic back pain (Distractor)  
+   c) Heart attack (Irrelevant)  
+|
+2) Which medication was increased during your hospital stay to help manage your symptoms?
+   a) Lactulose (Answer)  
+   b) Protonix (Distractor)  
+   c) Vitamin B12 (Irrelevant)  
+|
+3) What follow-up appointment should you attend after discharge?
+   a) Visit with the gastroenterologist on January 3, 2008 (Answer)  
+   b) Appointment with a cardiologist (Distractor)  
+   c) Meeting with a neurologist (Irrelevant)  
+|
+4) What health condition must you address to be considered for the transplant list?
+   a) Quitting smoking (Answer)  
+   b) Controlling high blood pressure (Distractor)  
+   c) Reducing sugar intake (Irrelevant)  
+|
+5) What is an acceptable side effect of increasing your lactulose dosage?
+   a) Increased bowel movements (Answer)  
+   b) Fatigue (Distractor)  
+   c) Dizziness (Irrelevant)  
+|
+6) Which medication was prescribed to help manage your tremors?
+   a) Neomycin (Answer)  
+   b) Colace (Distractor)  
+   c) Aspirin (Irrelevant)  
+|
+7) What should you do if you experience worsening tremors or chest pain?
+   a) Return to the hospital (Answer)  
+   b) Take additional lactulose (Distractor)  
+   c) Ignore the symptoms and rest (Irrelevant)  
+|
+8) How much magnesium oxide are you supposed to take?
+   a) 800 mg twice daily (Answer)  
+   b) 500 mg once daily (Distractor)  
+   c) 200 mg once daily (Irrelevant)  
+|
+9) How often should you take lactulose after discharge?
+   a) Every 4 hours (Answer)  
+   b) Once daily (Distractor)  
+   c) Every 12 hours (Irrelevant)  
+|
+10) What is your current status regarding the liver transplant list?
+   a) Not currently on the list but discussed (Answer)  
+   b) Approved and ready for transplant (Distractor)  
+   c) Rejected due to unrelated issues (Irrelevant)  ",
+report6244,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOTHORACIC SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[XXX M ZZZ YYY] ADMISSION DATE : **DATE[ Jun 23 2007] DISCHARGE DATE : **DATE[ Jul 02 2007] DISCHARGE DIAGNOSIS(ES ) : 1 .
+Status post tracheal resection on **DATE[ Jun 23 2007] . 2.
+Obstructive sleep apnea . 3.
+Hypertension . 4 .
+Diabetes . 5 .
+Hypercholesterolemia .
+HOSPITAL COURSE : The patient is a **AGE[in 70s]-year-old male with a history of obstructive sleep apnea who underwent a tracheostomy for the sleep apnea .
+The trachea had since then been removed and the patient had developed a tracheal stricture on **DATE[ Jun 23 2007] .
+The patient went to the operating room and underwent a bronchoscopy , tracheal resection , and end-to-end cervical tracheal anastomosis .
+Postoperatively , the patient went to the ICU for close monitoring and on postoperative day 2 , the patient was transferred to the floor where he was started on a clear liquid diet .
+The neck flexion was supported with a suture from chin to chest , which was discontinued on the day of discharge on **DATE[ Jul 2 2007] .
+For the patient 's diet , he was allowed to have soft foods that he does not need to chew and is to have mostly a full liquid diet .
+He was instructed by the dietitian at the hospital as to which foods he would be able to take in .
+On the day of discharge , the patient was afebrile and vital signs were stable .
+He was felt stable for discharge .
+ALLERGIES : SULFA , ATROPINE , AND IV DYE.
+DIET : Soft foods that he does not need to chew , mostly a full liquid diet .
+Use supplemental shakes 3 times a day .
+ACTIVITY : Keep head flexed at all times to help __ _ _ _ _ _ __ .
+Increase activity slowly as tolerated .
+Do not lift anything heavier than 10 pounds until seen by a physician .
+Do not drive a car until cleared by a physician on the first visit or while taking pain medicines .
+May take short rides in car .
+DISCHARGE INSTRUCTIONS : Continue incentive spirometry treatments for 1 week every 2 hours while awake .
+May shower today .
+No tub baths for the first 4 weeks .
+May wash incisions with mild soap and water and then dry thoroughly .
+Do not smoke .
+No alcohol consumption while taking pain medicines .
+Call physician if any of the following are noted : Temperature elevation greater than 101 degrees or a sustained low-grade temperature of 99 degrees or higher , fevers , associated chills , increased swelling , redness , or drainage at or around the incision sites , new or increased shortness of breath , new onset of chest pain , difficulty swallowing , severe calf pain , lightheadedness , dizziness , diarrhea , nausea , vomiting , severe depression , unusual rashes , or burning on urination .
+DISCHARGE MEDICATIONS : Roxicet 5 to 10 mL p.o . q.4 h . p.r.n . pain .
+Stool softeners to take while on pain medicine : Colace 100 mg p.o . b.i.d . liquids and Senokot 10 mL p.o . before sleep , the patient is to hold this for diarrhea .
+The patient is to resume previously prescribed medication and the patient is to not tilt head back when taking the medications .
+FOLLOWUP CARE : The patient is to see Dr. **NAME[ZZZ YYY] in 2 weeks , to call for an appointment at **PHONE.
+The patient is to also see his primary care doctor in 3 to 4 weeks for his blood sugars .
+CONDITION ON DISCHARGE : Stable . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[XXX M ZZZ YYY]
+
+Dictator : **NAME[UUU RRR] , C.R.N.P. **INITIALS D : **DATE[ Jul 05 2007] 11:25 :08 T : **DATE[ Jul 05 2007] 19:49:37 R: **DATE[ Jul 05 2007] 19:49:37/nks Job ID : 375554/**ID-NUM Cc : &lt ;start header&gt ; PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM ADMISSION DATE : **DATE[ Jun 23 2007] DISCHARGE DATE : **DATE[ Jul 02 2007] Page 3 of 3 &lt ;end header&gt ;
+
+*** Dictated By : -**NAME[RRR , QQQ] *** Electronically Signed by **NAME[XXX ZZZ YYY] **DATE[ Jul 19 2007] 03:48:54 PM
+
+
+
+
+","1) What procedure did you undergo during this hospital stay?  
+   a) Tracheal resection with end-to-end cervical anastomosis (Answer)  
+   b) Heart bypass surgery (Distractor)  
+   c) Appendectomy (Irrelevant)  
+|
+2) What dietary recommendations were you given upon discharge?  
+   a) Soft foods that do not require chewing, mostly a full liquid diet (Answer)  
+   b) High-fiber diet (Distractor)  
+   c) No dietary restrictions (Irrelevant)  
+|
+3) What activity restriction were you instructed to follow?  
+   a) Do not lift anything heavier than 10 pounds (Answer)  
+   b) Engage in daily strength training (Distractor)  
+   c) No physical restrictions (Irrelevant)  
+|
+4) How long should you continue incentive spirometry treatments after discharge?  
+   a) For 1 week every 2 hours while awake (Answer)  
+   b) For 2 months, once daily (Distractor)  
+   c) Only if you have shortness of breath (Irrelevant) 
+| 
+5) What are you instructed to avoid while taking pain medications?  
+   a) Alcohol consumption (Answer)  
+   b) Drinking water (Distractor)  
+   c) Eating any solid foods (Irrelevant) 
+| 
+6) How should you care for your incision sites?  
+   a) Wash with mild soap and water and dry thoroughly (Answer)  
+   b) Cover with heavy bandages at all times (Distractor)  
+   c) Apply lotion and massage (Irrelevant)  
+|
+7) What symptom requires immediate contact with your physician?  
+   a) Temperature elevation greater than 101 degrees (Answer)  
+   b) Mild fatigue (Distractor)  
+   c) Occasional cough (Irrelevant)  
+|
+8) What medication were you prescribed for pain management?  
+   a) Roxicet 5 to 10 mL p.o. q.4 h. as needed (Answer)  
+   b) Aspirin 81 mg daily (Distractor)  
+   c) Ibuprofen 200 mg (Irrelevant)  
+|
+9) What should you do if you experience severe calf pain or lightheadedness?  
+   a) Call your physician (Answer)  
+   b) Rest and wait for symptoms to subside (Distractor)  
+   c) Drink more fluids (Irrelevant)  
+|
+10) When can you start taking short car rides?  
+    a) Immediately after discharge (Answer)  
+    b) Only after 6 months (Distractor)  
+    c) Not until next year (Irrelevant)  ",
+report3243,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION GENERAL MEDICINE DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[BBB M ZZZ] ADMISSION DATE : **DATE[Aug 24 2007] DISCHARGE DATE : **DATE[Aug 29 2007] The patient 's HPI is as follows , as per Emergency Department notes , this is a **AGE[in 40s]-year-old white male who has been followed for a long time for chronic pain in his legs .
+He is seen by Neurology as well as his primary care physician , Dr. **NAME[ZZZ] .
+At this point , they feel he has an idiopathic peripheral neuropathy of undetermined etiology .
+The patient has been placed on a complex pain regimen , including Percocet , OxyContin , methadone , and Neurontin .
+He states that despite this , his pain is uncontrolled .
+He was in the hospital for an outpatient study to be evaluated for an intrathecal pump and stated his pain was so severe he was unable to ambulate and bear weight , so he was brought to the Emergency Department .
+He has no new symptoms or complaints .
+No fevers .
+No flu-like symptoms .
+No recent trauma .
+No chest pain , shortness of breath , abdominal pain , nausea , or vomiting .
+He has no back pain today .
+He states that the pain is from his hips all the way down .
+It is stocking-glove , worse peripherally , and is sensitive even to light touch .
+PAST MEDICAL HISTORY : Peripheral neuropathy status post MVA , anxiety , syncope .
+LABORATORY DATA : Admission laboratories on **DATE[Aug 24 2007] : sodium 141 , potassium 4.3 , chloride 110 , CO2 24 , anion gap 7 , BUN 12 , creatinine 0.8 , white blood cell count 7.7 , hemoglobin 13.7 , hematocrit 39.7 , platelets 275 .
+COURSE OF HOSPITALIZATION : 1 .
+Pain .
+A patient with history of peripheral neuropathy admitted with increasing pain , making ambulation difficult .
+The patient 's pain medications were adjusted .
+Chronic Pain was consulted .
+They advised to discontinue the OxyContin , which was done , and to increase the methadone .
+Methadone has been increased to 60 mg every 6 hours .
+The patient has been tolerating that without any respiratory depression .
+They advised to consider oxycodone IR , which has been started 10 mg every 6 hours as needed for breakthrough pain .
+The patient 's attending , Dr. **NAME[ZZZ] , increased the Neurontin to 1200 mg 4 times a day .
+The patient will be continued on Cymbalta 60 mg at bedtime and 30 mg in the morning .
+The patient is to follow up with Dr. **NAME[VVV] for intrathecal pain pump . 2.
+GI.
+The patient will be on Colace and Senna as needed for bowel regimen . 3.
+Psychiatry .
+A patient with history of anxiety , the patient will be continued on Cymbalta and Xanax as needed . 4 .
+Disposition .
+The patient will be discharged to home in stable condition as discussed with attending Dr. **NAME[BBB ZZZ] .
+DISCHARGE INSTRUCTIONS : The patient 's discharge instructions are follows : Date **DATE[Aug 29 2007] .
+Discharge diagnosis : Chronic pain , neuropathy .
+Diet : No restrictions .
+Activity : As tolerated .
+No driving when on narcotics ( pain medications ) .
+Neurontin 1200 mg 4 times a day as per Dr. **NAME[ZZZ , UUU] 0.5 mg 3 times a day # 45 and no refills , Cymbalta 60 mg at bedtime and 30 mg in the morning , Colace 100 mg twice a day , Senna 2 tabs at bedtime as needed for constipation , methadone 60 mg every 6 hours #50 no refills , oxycodone IR 10 mg every 6 hours as needed #50 no refills , Xanax 0.25 mg 2 times a day as needed # 30 no refills , meclizine 12.5 mg 3 times a day as needed for dizziness # 45 no refills .
+Do not take oxycodone or Percocet .
+Take only the above-listed medications .
+ALLERGY TO MORPHINE.
+Follow up with Dr. **NAME[VVV] , known to patient .
+Follow up with Dr. **NAME[ZZZ ] 's office in 2 weeks , phone number **PHONE.
+PHYSICAL EXAMINATION : Vitals : Temperature 37.2 , pulse 95 , respirations 20 , blood pressure 135/61 .
+Heart : Regular rate and rhythm without gallop .
+Clear S1 , S2 .
+Lungs : Clear to auscultation .
+GI : Positive bowel sounds , soft , nontender , nondistended .
+Neurologic : The patient has hypersensitivity to touch of bilateral feet .
+The patient is awake , alert , oriented x3 .
+The patient is being discharged to home in stable condition .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[BBB M ZZZ]
+
+Dictator : **NAME[WWW YYY , XXX] DP/gg D : **DATE[Aug 29 2007] 12:37 :12 T : **DATE[Aug 29 2007] 17 :43:28 R: **DATE[Aug 30 2007] 14:05 :07/kh Job ID : 366325/**ID-NUM Cc : **NAME[CCC M. VVV] , M.D. **INSTITUTION , B-400 **STREET-ADDRESS **PLACE , PA **ZIP-CODE &lt ;start footer&gt ; &lt;END FOOTER&gt ;
+
+*** Dictated By : -**NAME[YYY , XXX-WWW] *** Electronically Signed by **NAME[BBB ZZZ] **DATE[Sep 08 2007] 08:19:52 PM
+
+
+
+
+
+","1) Why were you admitted to the hospital?  
+   a) Chronic pain and neuropathy (Answer)  
+   b) Acute kidney infection (Distractor)  
+   c) Hypertension (Irrelevant)  
+|
+2) What change was made to your pain medication regimen during the hospital stay?  
+   a) Discontinued OxyContin and increased methadone dosage (Answer)  
+   b) Started on ibuprofen (Distractor)  
+   c) Added a high-dose antibiotic (Irrelevant)  
+|
+3) Which follow-up appointment was recommended for managing your chronic pain?  
+   a) Visit with Dr. VVV for an intrathecal pain pump (Answer)  
+   b) Appointment with a cardiologist (Distractor)  
+   c) Consultation with a dermatologist (Irrelevant)  
+|
+4) What dietary restrictions were given at discharge?  
+   a) No dietary restrictions (Answer)  
+   b) Low-sodium diet (Distractor)  
+   c) High-protein diet (Irrelevant)  
+|
+5) What symptom do you have that makes ambulation difficult?  
+   a) Leg pain due to peripheral neuropathy (Answer)  
+   b) Dizziness due to vertigo (Distractor)  
+   c) Sore throat (Irrelevant)  
+|
+6) Which medication must be avoided as per the discharge instructions?  
+   a) Oxycodone or Percocet (Answer)  
+   b) Ibuprofen (Distractor)  
+   c) Aspirin (Irrelevant)  
+|
+7) What activity restriction was recommended while taking narcotics?  
+   a) No driving (Answer)  
+   b) No walking (Distractor)  
+   c) No light exercises (Irrelevant)  
+|
+8) What should you do if your symptoms worsen or you experience new issues?  
+   a) Contact your healthcare provider or return to the hospital (Answer)  
+   b) Take additional pain medications on your own (Distractor)  
+   c) Wait until your next scheduled appointment (Irrelevant)  
+|
+9) What medications were you instructed to take for bowel care?  
+   a) Colace and Senna (Answer)  
+   b) Metformin and insulin (Distractor)  
+   c) Antibiotics (Irrelevant)  
+|
+10) How often should you take Neurontin as prescribed at discharge?  
+    a) 1200 mg four times a day (Answer)  
+    b) 500 mg once a day (Distractor)  
+    c) 200 mg every 12 hours (Irrelevant)  ",
+report3809,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOTHORACIC SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY M ZZZ] ADMISSION DATE : **DATE[ Mar 06 2007] DISCHARGE DATE : **DATE[ Mar 11 2007] DISCHARGE DIAGNOSIS(ES ) : STATUS POST ESOPHAGECTOMY CERVICAL APPROACH.
+HISTORY OF PRESENT ILLNESS : Mr. **NAME[AAA ] is a **AGE[in 70s]-year-old male who had onset of dysplasia approximately 3 years ago .
+The patient was worked up with an EGD at that time with biopsy showing high-grade dysplasia .
+The patient was placed on Protonix with resolution of his symptoms ; however , for the past two years , the patient has been followed subsequently with endoscopic EGDs , which have all confirmed high-grade dysplasia .
+His most recent EGD was performed on **DATE[ Nov 26 06] , which indicated that the patient had Barrett 's esophagus from 21 to 33 cm .
+He had an upper endoscopic ultrasound , which showed no evidence of any suspicious lymph nodes but no evidence of any transmural invasion .
+The patient had denied any dysphagia or odynophagia .
+The patient does suffer from occasional regurgitation .
+The patient 's only past medical history is a cardiac stent in 2000 , appendectomy in 1946 , and tonsillectomy in 1993 .
+He does have hypothyroidism .
+The patient was evaluated by Dr. **NAME[ZZZ] and after a cardiac work-up , it was decided he should undergo a minimally invasive esophagectomy cervical approach .
+The patient agreed to the procedure .
+HOSPITAL COURSE : The patient was taken to the Operating Room on **DATE[ Mar 06 07] and under the direct supervision of Dr. **NAME[YYY ZZZ] , a minimally invasive esophagectomy cervical approach with a feeding jejunostomy tube placement was performed .
+The patient tolerated the procedure well and was transferred to the ICU in stable condition .
+The patient was ultimately transferred to the 7th Floor .
+On postop day # 3 the NG tube was discontinued .
+The patient was started on clear liquids , 1 ounce an hour , has tolerated that .
+The patient has done fine since , ambulated in the hallway .
+The right chest tube was discontinued .
+The patient has no pneumothorax .
+He has been increased to go on his tube feeds and has tolerated those also .
+The patient 's cervical incision has been clear of complications .
+The site is without redness , drainage or swelling .
+He will be discharged home today .
+The patient did suffer some urinary retention .
+The patient had a Foley catheter replaced on **DATE[ Mar 10 07] and at that time was also started on Flomax and he will follow up with his primary care doctor in 4-5 days for discontinuation of the catheter or referral to a urologist .
+DISCHARGE INSTRUCTIONS : He is to call with temperatures of 101 degrees , a low grade temperature of 99 degrees of higher , fever , chills , swelling or incision site , increased shortness of breath , new onset of chest pain , drainage the incision site , feeling like food sticking .
+He will follow up with Dr. **NAME[ZZZ] in 2 weeks at the **INSTITUTION with a chest x-ray .
+His diet by mouth is 2-3 ounces with Nissin full liquids an hour x 3 days and to advance to 4-6 ounces an hour of Nissin full liquids .
+He is to flush the jejunostomy tube with 30 mL of water every 4 hours around the clock .
+He is to use __ _ _ _ _ _ _ _ _ equivalent of that , 110 mL an hour , cycle for 18 hours a day .
+DISCHARGE MEDICATIONS : 1 .
+Pepcid 20 mg p.o . b.i.d . 2.
+Colace elixir 10 mL p.o . b.i.d . 3.
+Roxicet elixir 5-10 mL p.o . q.4 hours p.r.n . 4 .
+Senna elixir 10 mL p.o . at bedtime p.r.n . 5 .
+He is to resume his home Synthroid of 100 mcg p.o . daily . 6 .
+Flomax 0.4 mg 1 p.o . daily .
+The patient has a Foley catheter in place that is draining clear , yellow urine .
+His white blood cell count on the day of discharge is 6.2.
+The patient has been ambulating in the hall with Physical Therapy and has been felt to be safe to go home .
+CONDITION ON DISCHARGE : Stable . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY M ZZZ] , M.D.
+
+Dictator : **NAME[WWW XXX] , C.R.N.P. TC/dm D : **DATE[ Mar 11 2007] 10:12:33 T : **DATE[ Mar 11 2007] 16 :29:05 R: **DATE[ Mar 11 2007] 16 :29:05/dm Job ID : 341856/**ID-NUM Cc : &lt ;start header&gt ; PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM ADMISSION DATE : **DATE[ Mar 06 2007] DISCHARGE DATE : **DATE[ Mar 11 2007] Page 3 of 3 &lt ;end header&gt ;
+
+*** Dictated By : -**NAME[XXX , VVV] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Mar 17 2007] 03 :26 :29 PM
+
+
+
+
+","1) What procedure did you undergo during your hospital stay?  
+   a) Minimally invasive esophagectomy cervical approach with feeding jejunostomy tube placement (Answer)  
+   b) Cardiac stent placement (Distractor)  
+   c) Appendectomy (Irrelevant)
+|  
+2) What dietary instructions were given to you upon discharge?  
+   a) 2-3 ounces of Nissin full liquids per hour for 3 days, then advance to 4-6 ounces per hour (Answer)  
+   b) Regular solid foods immediately (Distractor)  
+   c) High-protein diet (Irrelevant)  
+|
+3) How should you flush the jejunostomy tube after discharge?  
+   a) With 30 mL of water every 4 hours (Answer)  
+   b) With 10 mL of saline once a day (Distractor)  
+   c) By using an alcohol swab (Irrelevant)
+|  
+4) Which medication was prescribed to help manage urinary retention?  
+   a) Flomax 0.4 mg daily (Answer)  
+   b) Colace elixir (Distractor)  
+   c) Pepcid (Irrelevant)  
+|
+5) What symptom should prompt you to call your healthcare provider immediately?  
+   a) Fever of 101 degrees or higher (Answer)  
+   b) Mild fatigue (Distractor)  
+   c) Feeling slightly tired after meals (Irrelevant)  
+|
+6) How often should you cycle your jejunostomy tube feeds per day?  
+   a) 18 hours per day (Answer)  
+   b) 10 hours per day (Distractor)  
+   c) Only during meals (Irrelevant)  
+|
+7) What follow-up appointment was arranged after discharge?  
+   a) Visit with Dr. ZZZ in 2 weeks with a chest x-ray (Answer)  
+   b) Appointment with a dermatologist (Distractor)  
+   c) Meeting with a nutritionist (Irrelevant)  
+|
+8) What should you do if you experience new onset of chest pain after discharge?  
+   a) Call your healthcare provider (Answer)  
+   b) Rest and wait for it to go away (Distractor)  
+   c) Increase fluid intake (Irrelevant)  
+|
+9) Which medication were you instructed to resume from home?  
+   a) Synthroid 100 mcg daily (Answer)  
+   b) Aspirin 81 mg (Distractor)  
+   c) Ibuprofen (Irrelevant)  
+|
+10) How frequently should you consume clear liquids initially after your procedure?  
+    a) 1 ounce per hour (Answer)  
+    b) 5 ounces every hour (Distractor)  
+    c) Only at meal times (Irrelevant)  ",
+report4999,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOLOGY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING **NAME[SSS : YYY XXX WWW ZZZ] ADMISSION DATE : **DATE[ Jan 06 2008 ] DISCHARGE DATE : **DATE[ Jan 08 2008 ] DISCHARGE DIAGNOSES : 1 .
+Chronic chest pain syndrome . 2.
+Coronary artery disease status post multiple PCI. 3.
+Hypertension . 4 .
+Dyslipidemia . 5 .
+Sarcoidosis . 6 .
+Asthma . 7.
+Possible gastroesophageal reflux disease .
+REASON FOR ADMISSION : The patient is a **AGE[in 50s]-year-old white male with extensive coronary artery disease who was admitted on **DATE[ Jan 6 2008] , with complaints of nausea and crampy feeling followed by substernal chest pain that resolved with nitroglycerin .
+Upon presentation to the hospital , the patient was chest pain free .
+The patient was seen by Dr. **NAME[WWW ZZZ] in the clinic in **DATE[ Dec 2007] with plans to begin EECP treatments for the chronic chest pain .
+The patient was admitted for further evaluation and rule out of myocardial infarction .
+LABORATORY , RADIOGRAPHIC , AND OTHER DIAGNOSTIC STUDY FINDINGS : Sodium 139 , potassium 4.6 , chloride 105 , CO2 is 25 , BUN 18 , creatinine 1 , magnesium 1.8 , ALT 40 , AST 24 , triglyceride 97 , GGTP 39 , cholesterol 122 , LDL 77 , HDL 29 .
+Troponins were negative x3 at less than 0.10 .
+Total CPK was 84 , WBC was 6.7 , H and H were 13.6 and 39.8 , and platelet count 318 .
+INR 1.0.
+PT 9.2 .
+PTT 29.1 .
+The UA was negative .
+Portable chest x-ray showed normal heart size , perihilar pulmonary fibrosis consistent with sarcoid , no acute pulmonary abnormalities .
+No changes since **DATE[ Nov 15 2007] .
+EKG was normal sinus with no ischemic changes .
+HOSPITAL COURSE : 1 .
+Coronary artery disease status post multiple PCIs with known occluded OM , which has been to collaterals , mission not amenable to percutaneous coronary intervention .
+The patient was observed on telemetry unit .
+He was ruled out for myocardial infarction with troponins , which were all less than 0.10 x3 sets .
+His EKG showed no changes .
+He was chest pain free throughout admission .
+He was continued on aspirin , Plavix , atenolol , Ranexa , Norvasc , and statin .
+The patient has taken himself 5 of Imdur due to headaches .
+It was felt that , perhaps , the patient does have a component of gastroesophageal reflux disease .
+So , his PPI Protonix was increased to b.i.d . and GI was consulted .
+The patient is planned to begin EECP treatments on **DATE[ Jan 19 2008] , which he will pursue .
+The patient is also to begin L-arginine 500 mg b.i.d. , which he can obtain over the counter . 2.
+GI/possible gastroesophageal reflux disease .
+GI medicine was consulted during admission .
+They suggested followup with gastroenterologist for EGD to rule out source of his pain , and agreed with trying b.i.d . proton pump inhibitors to see if that helps with symptoms .
+It was also suggested that the patient has H. pylori serologies , and to treat if positive given his family history of gastric cancer . 3.
+Lipids .
+The patient 's fasting lipid profile was noted .
+He was continued on Lipitor 40 mg daily . 4 .
+Asthma/sarcoid .
+The patient is stable from this standpoint .
+He will continue his Advair and albuterol .
+PHYSICAL EXAMINATION ON DAY OF DISCHARGE : Vital Signs : Blood pressure 100/63 , pulse 68 , respiratory rate 18 , O2 saturation 99 % on room air .
+General : The patient is no acute distress , awake , alert , and oriented x3 .
+Cardiovascular : S1 and S2 , regular rate and rhythm .
+Lungs : Clear to auscultation .
+GI : Abdomen is soft , nontender , and nondistended with active bowel sounds .
+Extremities : There is no clubbing , cyanosis , or edema .
+His monitor was sinus rhythm in the 70s .
+DISCHARGE INSTRUCTIONS : The patient to be discharged to home .
+Diet is low fat , low salt , and low cholesterol diet .
+Activity should be as tolerated .
+He should notify his PCP or cardiologist if there is any increase in chest pain or shortness of breath .
+He should continue with EECP treatments as scheduled for **DATE[ Jan 19 2008] .
+He should have H. pylori serologies at an outpatient lab with results to Dr. **NAME[QQQ] .
+MEDICATIONS : 1 .
+Aspirin 81 mg daily . 2.
+Plavix 75 mg daily . 3.
+Ranexa 1000 mg 2 times a day . 4 .
+Atenolol 25 mg daily . 5 .
+Lipitor 40 mg daily . 6 .
+Norvasc 5 mg daily . 7.
+Protonix 40 mg 2 times a day 30 minutes before breakfast and dinner . 8.
+Lisinopril 10 mg daily . 9 .
+L-arginine 500 mg 2 times a day . 10 .
+Isosorbide 30 mg daily , which the patient does not take at home . 11 .
+Advair 500/50 two times a day . 12 .
+AndroGel 5 mg daily . 13 .
+Ambien 5 mg at sleep daily . 14 .
+Albuterol MDI p.r.n . 15 .
+Nitroglycerin sublingual 0.4 mg q.5 minutes x3 .
+Call 911 for chest pain .
+The patient to follow up with Dr. **NAME[WWW ZZZ] in approximately 1 month .
+The patient does have an appointment for **DATE[Feb 2008] , and follow up with his PCP Dr. **NAME[PPP QQQ] in 1 to 2 weeks , **PHONE , and follow up with his own gastroenterologist as soon as possible .
+He should call for an appointment .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY XXX WWW ZZZ]
+
+Dictator : **NAME[UUU VVV] , C.R.N.P. GH/sp D : **DATE[ Jan 08 2008 ] 14:55 :17 T : **DATE[ Jan 08 2008 ] 21:56:35 R: **DATE[ Jan 08 2008 ] 21:56:35/sp Job ID : 337296/**ID-NUM CC : **NAME[PPP QQQ] , M.D. **STREET-ADDRESS **PLACE , PA **ZIP-CODE
+
+*** Dictated By : -**NAME[VVV , OOO] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Jan 22 2008 ] 02:32:39 PM
+
+
+
+
+","1) What was the primary reason for your hospital admission?  
+   a) Chronic chest pain syndrome (Answer)  
+   b) Severe asthma attack (Distractor)  
+   c) Routine check-up (Irrelevant) 
+| 
+2) What follow-up treatment is scheduled to help manage your chest pain?  
+   a) EECP treatments starting on January 19, 2008 (Answer)  
+   b) Physical therapy (Distractor)  
+   c) Dietary counseling (Irrelevant)   |
+3) Which medication was increased to help with possible gastroesophageal reflux disease?  
+   a) Protonix to twice daily (Answer)  
+   b) Lipitor to twice daily (Distractor)  
+   c) Aspirin dosage (Irrelevant)  
+|
+4) What dietary restrictions were recommended upon discharge?  
+   a) Low fat, low salt, and low cholesterol diet (Answer)  
+   b) High-protein diet (Distractor)  
+   c) Vegan diet (Irrelevant)  
+|
+5) What should you do if you experience increased chest pain or shortness of breath?  
+   a) Notify your PCP or cardiologist (Answer)  
+   b) Take an extra dose of Norvasc (Distractor)  
+   c) Ignore and rest (Irrelevant)  
+|
+6) Which over-the-counter supplement was recommended to start after discharge?  
+   a) L-arginine 500 mg twice daily (Answer)  
+   b) Vitamin D (Distractor)  
+   c) Fish oil (Irrelevant)  
+|
+7) What medication should you take at the first sign of chest pain?  
+   a) Nitroglycerin 0.4 mg sublingually every 5 minutes, up to 3 times (Answer)  
+   b) Advair inhaler (Distractor)  
+   c) Aspirin immediately (Irrelevant)  
+|
+8) What test was recommended for you due to a family history of gastric cancer?  
+   a) H. pylori serologies (Answer)  
+   b) Liver function test (Distractor)  
+   c) ECG (Irrelevant)  
+|
+9) Which medication should you avoid taking at home due to headaches?  
+   a) Isosorbide (Answer)  
+   b) Ranexa (Distractor)  
+   c) Plavix (Irrelevant)  
+|
+10) When is your follow-up with Dr. WWW ZZZ scheduled?  
+    a) Approximately 1 month after discharge (Answer)  
+    b) 2 weeks after discharge (Distractor)  
+    c) 6 months after discharge (Irrelevant)",
+report7401,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION GENERAL MEDICINE DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB ] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY M ZZZ] ADMISSION DATE : **DATE[ Nov 07 2007] DISCHARGE DATE : **DATE[ Nov 09 2007] CONDITION ON DISCHARGE : Stable .
+CONSULTS OBTAINED : ENT.
+HISTORY OF PRESENT ILLNESS : This is a **AGE[in 60s]-year-old female who presented to the ER on **DATE[ Nov 7 2007] , since she had bleeding from her left ear that begin while she was cleaning her ear with Q-tip .
+The patient has a history of DVT for which she is on Coumadin , and apparently , she was cleaning her ear and she had persistent bleeding .
+During which time , she was noted to have a high blood pressure which was around 170/120s , but she does not have any known history of hypertension .
+During the hospital stay , ENT consult was obtained , and during which time , they thought that she had traumatic left ear laceration , and they recommended Floxin 5 drops left ear b.i.d . for 10 days and no Q-tip , fingernails , etc. , and to follow up in the **INSTITUTION in 2 weeks .
+The patient also had an audiogram which showed that the patient had bilateral symmetric mild presbycusis , and they decided to continue to follow .
+The patient 's blood pressure was taken during the hospital stay , and her blood pressure was always around 128/70 , and it was never over 135 .
+The patient has no known history of hypertension .
+Initial presentation , the INR was 4.0, but however , even without the FFP , the INR had come down to 2.3 , and her Coumadin was held .
+The patient also had an EKG which did not show any acute ST or T changes , and the patient had 2 sets of troponin which were essentially negative .
+Initially , the patient 's hemoglobin was 10.7 , but she did not have any further episodes of bleeding , and on the day of the discharge , it is 10.9 .
+The baseline hemoglobin is not known , but there is no evidence of any active bleeding other than the ear bleeding which stopped after few hours .
+The UA was done , and the patient had a UTI with the gram-negative rods for which she was on Bactrim , and she responded well with the Bactrim .
+She does not have any urinary symptoms .
+No fever or any white count .
+DISCHARGE INSTRUCTIONS : 1 .
+The patient will be discharged home on a stable condition .
+Follow up with primary care physician , and he is in **PLACE , and his name is Dr. **NAME[XXX] , and his phone number **PHONE , and follow up with Dr. **NAME[XXX] in 1 week .
+The patient will be restarted on Coumadin 3 mg p.o . nightly , and the patient 's PT/INR to be checked on **DATE[ Nov 10 2007] , and the results to be faxed to Dr. **NAME[XXX] .
+The dose of the Coumadin to be adjusted based on the INR.
+It is up to the PCP to adjust the dose of the Coumadin . 2.
+The patient will also be discharged home on home PT/OT , and the patient needs 24 x 7 care .
+The patient is completely taken care of by the daughter .
+The patient also is recommended PRAFO to prevent any decubitus ulcers on the bilateral heels and discussed this extensively with the daughter . 3.
+The other medications on discharge include : a .
+Carbidopa/levodopa 1 tablet p.o . t.i.d . b .
+Fentanyl patch 75 mcg transdermally q.72 hours . c.
+Fluoxetine 40 mg p.o . daily . d .
+Mirapex 0.25 p.o . t.i.d . e .
+Topamax 50 mg p.o . daily . f .
+Gabapentin 600 mg p.o . t.i.d . g .
+Celebrex 200 mg p.o . daily . h .
+Vicodin 5/500 one tablet p.o . q.6 h . p.r.n . as needed for pain . i .
+Floxin Otic 5 drops each ear b.i.d . for at least 10 days . j .
+Stalevo 25/100/200 mg p.o . t.i.d. , which is the same as the carbidopa/entacapone/levodopa 1 tablet p.o . t.i.d . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY M ZZZ]
+
+Dictator : **NAME[YYY M. ZZZ] , M.D. **INITIALS D : **DATE[ Nov 09 2007] 12:47 :56 T : **DATE[ Nov 10 2007] 00:28:27 R: **DATE[ Nov 10 2007] 00:28:27/ak Job ID : 338809/**ID-NUM Cc : &lt ;start footer&gt ; &lt;END FOOTER&gt ;
+
+*** Dictated By : -**NAME[ZZZ , WWW M] . *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Nov 22 2007] 03:46 :29 PM
+
+
+
+
+","1) What was the primary reason for your hospital admission?  
+   a) Bleeding from the left ear due to Q-tip injury (Answer)  
+   b) High fever and chills (Distractor)  
+   c) Routine check-up (Irrelevant)  
+|
+2) What treatment was recommended by ENT for your ear injury?  
+   a) Floxin Otic 5 drops in the left ear twice daily for 10 days (Answer)  
+   b) Antibiotic ear cream (Distractor)  
+   c) Oral antibiotics only (Irrelevant)  
+|
+3) What medication is prescribed for your UTI?  
+   a) Bactrim (Answer)  
+   b) Ciprofloxacin (Distractor)  
+   c) Amoxicillin (Irrelevant)  
+|
+4) When should you have your PT/INR checked after discharge?  
+   a) November 10, 2007 (Answer)  
+   b) November 12, 2007 (Distractor)  
+   c) November 15, 2007 (Irrelevant)  
+|
+5) Who will adjust your Coumadin dosage after discharge?  
+   a) Primary Care Physician (Answer)  
+   b) ENT Specialist (Distractor)  
+   c) Cardiologist (Irrelevant)  
+|
+6) What was prescribed to prevent decubitus ulcers on your heels?  
+   a) PRAFO (Answer)  
+   b) Compression stockings (Distractor)  
+   c) Heat therapy (Irrelevant) 
+| 
+7) Which pain medication was prescribed to you for as-needed use?  
+   a) Vicodin 5/500 (Answer)  
+   b) Ibuprofen (Distractor)  
+   c) Tylenol (Irrelevant)  
+|
+8) How often should you change your Fentanyl patch?  
+   a) Every 72 hours (Answer)  
+   b) Every 24 hours (Distractor)  
+   c) Every 48 hours (Irrelevant)  
+|
+9) Which medication are you instructed to resume at 3 mg each night?  
+   a) Coumadin (Answer)  
+   b) Aspirin (Distractor)  
+   c) Lipitor (Irrelevant)  
+|
+10) What specific instruction was given regarding ear cleaning?  
+    a) Avoid using Q-tips or fingernails (Answer)  
+    b) Use hydrogen peroxide daily (Distractor)  
+    c) Wash with hot water (Irrelevant)",
+report4903,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+
+**INSTITUTION NEUROLOGY DISCHARGE SUMMARY
+
+PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY] **NAME[ZZZ] ADMISSION DATE : **DATE[ Jan 08 2008 ] DISCHARGE DATE : **DATE[ Jan 13 2008 ]
+
+
+ADMISSION DIAGNOSIS : Postherpetic neuralgia .
+
+PROCEDURES : Procedures that were done , the patient had a spinal tap on **DATE[ Jan 11 2008] .
+She had an MRI of her head on **DATE[ Jan 9 2008] , that showed mild to moderate white matters , small-vessel ischemic changes , as well as normal optic nerves , and chiasms .
+She had an MRI of her C- and T-spine on **DATE[ Jan 10 2008] , that showed degenerative changes in the thoracic spine with some variable appearance to the bone marrow , but there were no enhancing abnormalities in either the cervical or the thoracic spine .
+She had an EMG as well as nerve conduction studies on **DATE[ Jan 9 2008] .
+
+CONSULTS : Consults that were obtained ; there was Pain Management consult obtained on **DATE[ Jan 10 2008] , as well as the Cardiology consult obtained on **DATE[ Jan 13 2008] .
+
+HOSPITAL COURSE : This is a **AGE[in 50s]-year-old female with a history of vasculitic neuropathy previously treated with methotrexate , CellCept , and Rituxan , who then developed zoster in **DATE[ Dec 2007] , and was treated with Valtrex .
+Then , at the end of the year , who presented with severe postherpetic neuralgia .
+Please refer to the Neurology H and P for further details on presentation .
+Hospital course issues are as follows : 1 .
+For the pain management .
+The Neurontin was increased to 1200 mg t.i.d .
+The Depakote was increased to 750 q.8 hours . , and she was put on oral Dilaudid as well as lidocaine patch .
+Over the course of her hospital stay , her pain was extremely difficult to control until the day of discharge , when she said that the pain was responding to the oral Dilaudid .
+A Chronic Pain consult was obtained .
+They recommended outpatient followup in the **INSTITUTION as well as a Fentanyl patch , which was then added on the **DATE[ Jan 10 2008] . 2.
+When she had presented , she also had right arm weakness .
+So we obtained an MRI of her head and of her cervical and thoracic spine as well as EMG and nerve conduction studies .
+Being that the EMG that was obtained on the **DATE[ Jan 9 2008 ] was consistent with the possible right lower trunk brachial plexopathy versus radiculopathy .
+We obtained an MRI of her upper spine .
+The MRI did not show any nerve impingement , and so an LP was performed , which was negative .
+So in summary , the entire workup for her right upper extremity weakness suggested possible post hereptic changes to the lower trunk of the right brachial plexus .
+The weakness may have improved by **DATE[ Jan 11 2008] , and it possible that there was a component due to pain . 3.
+On **DATE[ Jan 12 2008] , the patient 's PCP Dr. **NAME[TTT] had one of her partners stop by to leave a note in the chart saying that on **DATE[ Dec 23 2007] , she had had a cardiac stress test that showed possible high risk for coronary artery disease and ischemia , and so she had recommended a Cardiology consult .
+The Cardiology consult was obtained on the **DATE[ Jan 13 2008] , and the Cardiology fellow , who saw the patient , said that actually in reviewing the stress test , it is only really mildly positive and is actually a low-risk positive stress test .
+He recommended that we increase her Lopressor to 50 mg b.i.d. , and increased her aspirin to 325 mg daily and has her follow up with Cardiology for an outpatient left heart catheterization .
+
+DISCHARGE INSTRUCTIONS : Discharge instructions are as follows ; the patient is being discharged to home with a diagnosis of postherpetic neuralgia .
+Condition is stable .
+ALLERGIES ARE TO BACTRIM , LISINOPRIL , TEGRETOL , AND NYSTATIN.
+Activity is ad lib .
+Diet is low-fat low-salt diet .
+She is to follow up with the **INSTITUTION in 1 week , and she should call **PHONE to confirm that appointment .
+However , that appointment is scheduled for Thursday **DATE[ Jan 18 2008] .
+She should also follow up with Dr. **NAME[SSS] with Neurology in 1 month , and the phone number to call **PHONE to schedule that appointment .
+She also needs to follow up with Cardiology in 1 week and the phone number is **PHONE to schedule that appointment , and she also needs to follow up her PCP in 1 week .
+
+DISCHARGE MEDICATIONS : Discharge medications are : 1 .
+Procrit 40,000 units subcutaneously q .
+Friday . 2.
+Depakote ER 750 mg p.o . q.8 hours . 3.
+Colace 200 mg p.o . every other day . 4 .
+Senna 2 tablets p.o . every other day . 5 .
+Fentanyl Patch 25 mcg transdermally q.72 hours . 6 .
+Iron 300 mg p.o . q . day . 7.
+Neurontin 1200 mg p.o . 3 times daily . 8.
+Lidocaine topical patch 5 % , 3 patches topically , 12 hours on and 12 hours off daily . 9 .
+Metoprolol 50 mg p.o . b.i.d . 10 .
+Protonix 40 mg p.o . q . day . 11 .
+Prednisone 7.5 mg p.o . b.i.d . 12 .
+Dilaudid 4 mg p.o . q.4 hours . p.r.n . 13 .
+Aspirin 325 mg p.o . q . day . 14 .
+Folic acid 1 mg p.o . q . day .
+
+
+
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY] **NAME[ZZZ]
+
+
+
+
+Dictator : **NAME[WWW XXX] , M.D.
+
+HH/cs
+
+D : **DATE[ Jan 13 2008 ] 10:36:33 T : **DATE[ Jan 14 2008 ] 03:01:51 R: **DATE[ Jan 14 2008 ] 03:01:51/cs
+
+Job ID : 345196/**ID-NUM
+
+Cc :
+
+&lt ;start header&gt ; PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM ADMISSION DATE : **DATE[ Jan 08 2008 ] DISCHARGE DATE : **DATE[ Jan 13 2008 ] Page 4 of 4
+
+
+&lt;END HEADER&gt ;
+
+
+
+
+*** Dictated By : -**NAME[XXX , RRR] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Jan 17 2008 ] 01:23 :03 PM
+
+
+
+
+","1) What was the primary diagnosis for your hospital stay?  
+   a) Postherpetic neuralgia (Answer)  
+   b) Heart disease (Distractor)  
+   c) Diabetes (Irrelevant)  
+|
+2) What pain management medication was added during your hospital stay?  
+   a) Fentanyl patch (Answer)  
+   b) Ibuprofen (Distractor)  
+   c) Acetaminophen (Irrelevant)  
+|
+3) What follow-up appointment should you confirm for January 18, 2008?  
+   a) Appointment with **INSTITUTION** (Answer)  
+   b) Cardiology consultation (Distractor)  
+   c) Neurology consultation (Irrelevant)  
+|
+4) Which medication was prescribed to be applied topically for 12 hours on and 12 hours off?  
+   a) Lidocaine patch (Answer)  
+   b) Neurontin (Distractor)  
+   c) Dilaudid (Irrelevant)  
+|
+5) What is the recommended dosage of Neurontin after discharge?  
+   a) 1200 mg three times daily (Answer)  
+   b) 600 mg twice daily (Distractor)  
+   c) 400 mg once daily (Irrelevant)  
+|
+6) Who should you follow up with in one week for a potential left heart catheterization?  
+   a) Cardiology (Answer)  
+   b) Neurology (Distractor)  
+   c) Physical therapy (Irrelevant)  
+|
+7) What activity level is recommended after discharge?  
+   a) Ad lib (Answer)  
+   b) Bed rest only (Distractor)  
+   c) Restricted to sitting (Irrelevant)  
+|
+8) Which medication should be taken every Friday as prescribed?  
+   a) Procrit (Answer)  
+   b) Aspirin (Distractor)  
+   c) Colace (Irrelevant) 
+|
+9) Which medication is prescribed for daily oral intake at 325 mg?  
+   a) Aspirin (Answer)  
+   b) Folic acid (Distractor)  
+   c) Metoprolol (Irrelevant)  
+|
+10) What dietary recommendation is suggested upon discharge?  
+    a) Low-fat, low-salt diet (Answer)  
+    b) High-protein diet (Distractor)  
+    c) No specific diet (Irrelevant)",
+report4316,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOLOGY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB ] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY XXX WWW ZZZ] ADMISSION DATE : **DATE[Aug 15 2007] DISCHARGE DATE : **DATE[Aug 21 2007] DISCHARGE DIAGNOSES : 1 .
+Dyspnea . 2.
+Chest pain which is chronic . 3.
+Anemia . 4 .
+Diabetes mellitus . 5 .
+Chronic obstructive pulmonary disease . 6 .
+Dyslipidemia . 7.
+Anxiety/depression . 8.
+Coronary artery disease . 9 .
+Obesity .
+REASON FOR ADMISSION : This is a **AGE[in 60s]-year-old white female with the above past medical history who had been complaining of worsening bilateral lower extremity edema as well as increase in her chronic chest pain .
+She was admitted for further evaluation .
+LABORATORY AND DIAGNOSTIC STUDY FINDINGS IN THIS ADMISSION : Labs on the day of discharge are as follows : Sodium 141 , potassium 4.4 , chloride 96 , CO2 44 , BUN 12 , creatinine 0.7 , magnesium 2.0, and H and H 9.6 and 29.0 respectively .
+Other labs and diagnostic findings in this admission : EGD on **DATE[Aug 19 2007] , revealed normal esophagus , mild antral gastritis , and duodenitis in the bulb of the duodenum versus mucosal hyperplasia status post biopsy .
+Other labs in this admission : ALT 19 , AST 14 , alkaline phosphatase 110 , total bilirubin 0.2 , and GGTP 21 .
+Troponins were less than 0.10 x4 sets this admission .
+LDL was 86 , HDL 31 , triglycerides 85 , total cholesterol 131 , iron saturation 11 , ferritin was 6 , vitamin B12 151 , folate 1087 , total iron 27 , and BNP was 18 .
+The patient had positive stool for occult blood on **DATE[Aug 18 2007] .
+Sputum culture on **DATE[Aug 17 2007] , showed normal oropharyngeal flora .
+Portable chest x-ray on **DATE[Aug 15 2007] , revealed no findings of pneumonia .
+Transthoracic echocardiogram on **DATE[Aug 17 2007] , revealed a very technically difficult study .
+It was difficult to visualize her valves and endocardium .
+Next , there was grossly normal left ventricular size and function .
+There was mild left atrial enlargement .
+LVEF was 55 % to 60 % .
+Lower extremity Dopplers were performed on **DATE[Aug 16 2007] , revealing no evidence of DVT in the lower extremities .
+CONSULTS IN THIS ADMISSION : GI consult .
+HOSPITAL COURSE : 1 .
+Again , the patient was admitted with dyspnea as well as lower extremity edema and a recent complaint of upper respiratory infection .
+She was volume overloaded on admission and was diuresed with IV Bumex .
+Additionally , she was placed on a rapid steroid taper .
+She underwent lower extremity Dopplers for her lower extremity edema which was negative , and she underwent a transthoracic echocardiogram as well as detailed above .
+Additionally , she was given a 3-day Z-Pak which was completed upon discharge .
+Her breathing did improve with diuretic therapy and steroids , and she was changed to p.o . diuretics upon the day of discharge . 2.
+Chest pain .
+Again , this is chronic .
+The patient did have a left and right heart catheterization in **DATE[Sep 2006] .
+That revealed a dominant RCA without disease .
+The stents in the mid segment were patent without evidence of instant restenosis .
+There was no disease of the left main .
+The LAD had a mid 40 % stenosis and there was a 40 % stenosis of the left circumflex .
+Her EF at that time was 60 % .
+At this admission for her pain , she was treated with Percocet which seemed to help her pain .
+Troponins were negative x4 sets in this admission and PE workup was reportedly negative . 3.
+Anemia .
+She demonstrated a normocytic anemia during her stay here and had 1 positive stool for occult blood .
+We did consult GI.
+She underwent an EGD as noted above which demonstrated gastritis as well as duodenitis in the bulb of the duodenum versus mucosal hyperplasia .
+This was biopsied and should be followed upon .
+She was continued on her proton pump inhibitor .
+Additionally , they recommended that she follow up with her primary physician . 4 .
+Diabetes mellitus .
+Her hemoglobin A1c was 8.6.
+She was continued on her 70/30 insulin per home regimen and her sugars were monitored closely during her stay here . 5 .
+COPD.
+Again , she was on a rapid steroid taper during her stay here as well as Z-Pak .
+Her symptoms did improve with this .
+Additionally , she was continued on her nebulizers and oxygen .
+She does have 4 liters at home continuously . 6 .
+Dyslipidemia .
+Her Lipitor was recently discontinued as an outpatient secondary to history of muscle aches .
+Zetia or other cholesterol therapy should be considered in the future , and she should followup with her PCP regarding this .
+Her lipid panel is as noted above . 7.
+Anxiety/depression .
+The patient was continued on her trazodone during her stay . 8.
+Condition of the patient on day of discharge .
+The patient was in a stable condition .
+Labs were as noted above .
+She was given discharge instructions for patients with congestive heart failure .
+She should follow a cardiac/carb-consistent diet with 2 g sodium restriction and 2000 mL fluid restriction in a day .
+She should follow up with her PCP Dr. **NAME[SSS TTT] in 2 weeks at **PHONE.
+She should follow up with her cardiologist Dr. **NAME[WWW ZZZ] at **PHONE.
+She should follow up with him in 4 weeks .
+Additionally , she should notify Dr. **NAME[ZZZ] if she has any new or increased shortness of breath , new onset of chest pain , lightheadedness , dizziness , fainting , and weight gain of 2 pounds in a day or 4 pounds in a week .
+DISCHARGE MEDICATIONS : 1 .
+Coated aspirin 81 mg daily . 2.
+Bumex 2 mg 2 times a day . 3.
+Plavix 75 mg daily . 4 .
+Colace 100 mg 2 times a day . 5 .
+Ferrous sulfate 300 mg 3 times a day . 6 .
+Novolin insulin 70/30 32 units in the morning and 22 units at p.m. 7.
+Ativan 1 mg every 12 hours . 8.
+Metoprolol 12.5 mg 2 times a day . 9 .
+Trazodone 150 mg at bedtime . 10 .
+Aciphex 20 mg daily . 11 .
+Nystatin topical to groin 2 times a day . 12 .
+Isosorbide dinitrate 20 mg 2 times a day . 13 .
+Endocet 7.5 mg/500 mg 1 tablet every 4 to 6 hours as needed for pain . 14 .
+Potassium chloride 20 mEq daily . 15 .
+Combivent as before . 16 .
+Oxygen 4 to 5 liters nasal cannula . 17 .
+Robaxin 750 mg t.i.d .
+She has been set up for home health care services prior to discharge for medication review , lab work , I and O , and weight checks .
+She should have lytes , BUN and creatinine , magnesium , and CBC weekly x2 with results to Dr. **NAME[ZZZ] and Dr. **NAME[TTT] . __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY XXX WWW ZZZ]
+
+Dictator : **NAME[UUU VVV] , C.R.N.P. AG/bg D : **DATE[Aug 21 2007] 18:55 :15 T : **DATE[Aug 21 2007] 23 :10:59 R: **DATE[Aug 21 2007] 23 :10:59/bg Job ID : 355629/**ID-NUM CC : Dr. **NAME[SSS TTT] , Fax number : **PHONE Dr. **NAME[WWW ZZZ] , Fax number : **PHONE
+
+*** Dictated By : -**NAME[VVV , RRR] *** Electronically Signed by **NAME[YYY ZZZ] **DATE[Sep 02 2007] 04 :09:08 PM
+
+
+
+
+","1) What was one of the primary reasons for your hospital admission?  
+   a) Dyspnea (Answer)  
+   b) Headache (Distractor)  
+   c) Nausea (Irrelevant)  
+|
+2) What diagnostic procedure was performed on **DATE[Aug 19 2007]** to investigate gastrointestinal symptoms?  
+   a) EGD (Answer)  
+   b) Colonoscopy (Distractor)  
+   c) CT scan (Irrelevant)  
+|
+3) What dietary restrictions are recommended upon discharge?  
+   a) Cardiac/carb-consistent diet with 2 g sodium restriction (Answer)  
+   b) High-protein diet (Distractor)  
+   c) No dietary restrictions (Irrelevant)  
+|
+4) Who should you notify if you experience any new or increased shortness of breath or weight gain of 2 pounds in a day?  
+   a) Doctor (Answer)  
+   b) Pharmacist (Distractor)  
+   c) Nutritionist (Irrelevant)  
+|
+5) What follow-up appointment is recommended two weeks after discharge?  
+   a) Visit with your PCP, Doctor (Answer)  
+   b) Meeting with a neurologist (Distractor)  
+   c) Ophthalmology appointment (Irrelevant)  
+|
+6) What medication should you take twice daily as per discharge instructions?  
+   a) Bumex 2 mg (Answer)  
+   b) Aspirin 81 mg (Distractor)  
+   c) Ferrous sulfate 300 mg (Irrelevant)  
+|
+7) What home health care services were arranged for you?  
+   a) Medication review, lab work, I&O, and weight checks (Answer)  
+   b) Physical therapy only (Distractor)  
+   c) Speech therapy (Irrelevant)  
+|
+8) Which medication was prescribed to help manage your chronic chest pain?  
+   a) Endocet 7.5 mg/500 mg (Answer)  
+   b) Acetaminophen (Distractor)  
+   c) Ibuprofen (Irrelevant)  
+|
+9) What should you do if you experience a weight gain of 4 pounds within a week?  
+   a) Notify Doctor (Answer)  
+   b) Take additional doses of Bumex (Distractor)  
+   c) Ignore unless other symptoms appear (Irrelevant)  
+|
+10) How frequently should lab results be sent to Doctor?  
+    a) Weekly for 2 weeks (Answer)  
+    b) Every 3 weeks (Distractor)  
+    c) Only once post-discharge (Irrelevant)",
+report1680,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION CARDIOLOGY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[TTT SSS] , M.D.
+ADMISSION DATE : **DATE[ Jun 10 2007] DISCHARGE DATE : **DATE[ Jun 12 2007] CONSULTATIONS THIS ADMISSION : Included GI Medicine , Dr. **NAME[RRR] .
+DISCHARGE DIAGNOSES 1 .
+Coronary artery disease with a history of coronary artery bypass graft x4 in 1997 , left internal mammary artery to left anterior descending , saphenous vein graft to diagonal-1 , saphenous vein graft to obtuse marginal , saphenous vein graft to posterior descending artery . 2.
+Congestive heart failure . 3.
+Diabetes mellitus , insulin dependent . 4 .
+Cadaveric renal transplant in 1993 . 5 .
+History of bilateral below-knee amputation secondary to diabetes . 6 .
+History of small bowel obstruction . 7.
+Retinopathy . 8.
+Dyslipidemia .
+REASON FOR ADMISSION : The patient is a **AGE[in 50s]-year-old white male with history of CAD , CABG x4 , insulin-dependent diabetes , renal transplant with recent small bowel obstruction , with exploratory laparotomy and small bowel resection in **DATE[ Jan 2007] , who was admitted to **INSTITUTION on **DATE[ May 4 2007] , with volume overload .
+He was treated with Natrecor and discharged to home .
+He underwent a stress test in **DATE[ May 2007] , which was positive for moderate anterior , anterior septal ischemia , and moderate anterior lateral ischemia with mild inferolateral infarct and an EF of 28 % .
+He was referred to **INSTITUTION for planned heart catheterization .
+LABORATORY , RADIOGRAPHIC , AND OTHER DIAGNOSTIC STUDY FINDINGS : Heart catheterization on **DATE[ Jun 10 2007] , revealed , a right heart cath revealed an RA of 11 , RV of 67/1 , 13 , PA pressure of 67/27 ( 46 ) , a wedge of 34 , PA sat 51 % , cardiac output thermo was 5.05 , index 2.62 ; Fick output was 4.60 , Fick index was 2.38.
+Left heart cath results : Left main with diffuse disease up to 50 % ; LAD with ostial 80 % lesion followed by complete occlusion in the mid segment .
+D1 small and severely disease .
+The LIMA to the mid LAD is patent .
+SVG to diagonal is occluded .
+Circumflex is occluded at its ostium and SVG to OM2 is patent .
+The first OM fill is from collateral .
+Dominant RCA is occluded and SVG to PDA is patent .
+There is severe diffuse disease in the native vessel .
+Echocardiogram on **DATE[ Jun 11 2007] , revealed the following : Normal left ventricular size and function .
+Second aortic valve mild MR , mild TR.
+Mild left atrial enlargement .
+There was some thickening in the pulmonic valve that in one view looks suspicious for possible vegetation versus artifact .
+This was discussed with Dr. **NAME[SSS] .
+Borderline hypertension with PA systolic pressure of 37 mmHg .
+Ejection fraction was 55 % to 60 % .
+Lab tests : Sodium 143 , potassium 4.8 , chloride 109 , CO2 of 26 , BUN 17 , creatinine 1.1 , magnesium 1.3 , ALT is 63 , AST 22 , triglycerides 52 , cholesterol 84 , LDL 40 , HDL 36 , WBC 8.1 , H and H 10.8 and 32.8 , platelet count 245 , A1c was 7.1 , TSH was 1.808 , FK level was 13.3 .
+Abdominal x-ray on **DATE[ Jun 11 2007] , with moderate fecal retention throughout the colon compatible with history of constipation .
+HOSPITAL COURSE 1 .
+CHF.
+The patient was found to be volume overloaded upon admission .
+Echocardiogram showed normal ejection fraction with an EF 55 % to 60 % .
+He was diuresed with Lasix 40 mg IV b.i.d . with excellent diuresis .
+At discharge , he will be discharged on Lasix 40 mg daily .
+His Cardizem was discontinued when it was found that his EF was only 28 % .
+Repeat echo showed EF of 55 % to 60 % .
+However , this was discussed with Dr. **NAME[SSS] and it was decided that we would discontinue Cardizem for the present time .
+The patient is to continue Coreg 6.25 b.i.d . as well as Cozaar 50 mg daily .
+The patient was instructed to weigh himself daily and report any increase in weight , and was also instructed on fluid restriction and sodium restriction . 2.
+CAD.
+The patient with a history of MI and CABG x4 in 1997 .
+Left heart cath as above .
+The patient to be medically managed .
+Continue aspirin , Cozaar , Coreg , Crestor , and niacin .
+His left groin site was without bleeding or hematoma at the time of discharge . 3.
+Diabetes mellitus .
+The patient 's hemoglobin A1c was 7.1 .
+He takes his own sliding scale NPH and regular insulin at home , which he will continue at discharge . 4 .
+History of cadaveric kidney transplant in 1993 .
+The patient was continued on his home regimen of Prograf 2 mg 2 times a day and Bactrim Monday , Wednesday , Friday .
+His last FK level was 13.3 . 5 .
+GI.
+The patient with recent small bowel obstruction status post exploratory laparotomy and surgery .
+The patient was complaining of diarrhea here .
+He had recently been started on Creon with meals .
+GI was consulted .
+Dr. **NAME[RRR] recommended starting rifaximin 200 mg 3 times a day x10 days , in case of bacterial overgrowth .
+After 2 doses of rifaximin , the patient reported resolution of diarrhea .
+His abdominal x-ray did show fecal retention throughout the colon .
+So he may have been having overflow diarrhea .
+He was told to discontinue his Imodium and continue the rifaximin , follow up with his GI gastroenterologist , Dr. **NAME[QQQ] . 6 .
+Dyslipidemia .
+The patient currently on Crestor and niacin .
+The patient to continue at home .
+PHYSICAL EXAMINATION : On the day of discharge , temperature of 36.9 , blood pressure 114/50 , pulse 72 , respiratory rate 18 , and O2 saturation 97 % on room .
+General : The patient is no acute distress .
+Awake , alert , and oriented x3 .
+Cardiovascular : S1 and S2 .
+Regular rate and rhythm .
+Respiratory : Lungs are clear to auscultation .
+GI : Abdomen soft , nontender , nondistended with active bowel sounds .
+Extremities : He has is status post bilateral BKA with prosthesis on .
+Skin at left groin site is without hematoma or bruise .
+DISCHARGE INSTRUCTIONS : As follows : The patient is to discharged home .
+He should call 911 for chest pain , shortness of breath , lightheadedness , dizziness , unusual sweating or fatigue , nausea , vomiting unrelated to eating , signs of infection at the incision site , pain at the incision site .
+She is to follow up with Dr. **NAME[UUU VVV] in 1 week , phone number is **PHONE and fax **PHONE.
+She is to have lytes , BUN , creatinine , magnesium , and Prograf level on **DATE[ Jun 15 2007] , with results to Dr. **NAME[VVV] and the **INSTITUTION ; and Dr. **NAME[PPP OOO] , his nephrologist .
+He should follow up with Dr. **NAME[QQQ] , his gastroenterologist as previously planned .
+Activity in left groin site instructions are per discharge order instructions after percutaneous coronary intervention .
+He should weigh himself daily and call Dr. **NAME[VVV] with weight increase of 2 pounds in 24 hours or 4 pounds in 1 week .
+She is to have a low-fat , low-salt , low-cholesterol , low-trans fat , carbohydrate consisting diet with 2000 mL per day fluid restriction .
+DISCHARGE MEDICATIONS : As follows , 1 .
+Creon 20 three tablets with meals . 2.
+Aspirin 81 mg daily . 3.
+Cozaar 50 mg daily . 4 .
+Niacin 500 mg daily . 5 .
+Bactrim 400/8 0 one tablet Monday , Wednesday , Friday . 6 .
+Reglan 5 mg prior to meals , which is a decreased dose .
+He was provided prescription . 7.
+Coreg 6.25 two times a daily . 8.
+Folic acid 1 mg daily . 9 .
+Crestor 5 mg daily . 10 .
+Lasix 40 mg daily , which is new .
+The patient was provided a prescription . 11 .
+Prograf 2 mg 2 times a day . 12 .
+Rifaximin 200 mg 3 times a day x10 days .
+He was provided prescription . 13 .
+He should discontinue his diltiazem . 14 .
+He should continue his NPH insulin and regular insulin as per his home scale .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[TTT SSS] , M.D.
+
+Dictator : **NAME[WWW XXX] , C.R.N.P. GH/ak D : **DATE[ Jun 12 2007] 15 :51:57 T : **DATE[ Jun 13 2007] 03:05 :40 R: **DATE[ Jun 13 2007] 03:05 :40/ak Job ID : 344365/**ID-NUM CC : **NAME[UUU M. VVV] , M.D.
+Latrobe Heart Associates **STREET-ADDRESS **PLACE , PA **ZIP-CODE **NAME[CCC OOO] , M.D.
+P.O. Box 737 **STREET-ADDRESS **PLACE , PA **ZIP-CODE **INSTITUTION.
+
+*** Dictated By : -**NAME[XXX , NNN] *** Electronically Signed by **NAME[TTT SSS] **DATE[ Jun 23 2007] 08:55 :40 AM
+
+
+
+
+","1) What was one of the primary reasons for your hospital admission?  
+   a) Volume overload (Answer)  
+   b) Skin rash (Distractor)  
+   c) Headache (Irrelevant) 
+|
+2) What diagnostic procedure was planned and performed during this hospital stay?  
+   a) Heart catheterization (Answer)  
+   b) Colonoscopy (Distractor)  
+   c) MRI scan (Irrelevant)  
+|
+3) Which medication was newly prescribed to help manage your fluid retention upon discharge?  
+   a) Lasix 40 mg daily (Answer)  
+   b) Aspirin 81 mg daily (Distractor)  
+   c) Niacin 500 mg daily (Irrelevant)  
+|
+4) What dietary recommendation was provided at discharge?  
+   a) Low-fat, low-salt, low-cholesterol, low-trans fat, carbohydrate-consistent diet with fluid restriction (Answer)  
+   b) High-protein diet (Distractor)  
+   c) Regular diet with no restrictions (Irrelevant)  
+|
+5) Which symptom should prompt you to call 911 immediately after discharge?  
+   a) Chest pain or shortness of breath (Answer)  
+   b) Mild fatigue (Distractor)  
+   c) Occasional headache (Irrelevant) 
+| 
+6) What should you do if you notice a weight increase of 2 pounds within 24 hours?  
+   a) Notify Doctor (Answer)  
+   b) Drink more water (Distractor)  
+   c) Ignore the change and continue normal activities (Irrelevant)  
+|
+7) Which medication was recommended to discontinue at discharge?  
+   a) Diltiazem (Answer)  
+   b) Niacin (Distractor)  
+   c) Crestor (Irrelevant)  
+|
+8) Which follow-up lab tests were scheduled after discharge to monitor kidney health?  
+   a) Lytes, BUN, creatinine, and Prograf level (Answer)  
+   b) Hemoglobin A1c (Distractor)  
+   c) Troponin level (Irrelevant)  
+|
+9) What medication was prescribed for bacterial overgrowth in the GI tract?  
+   a) Rifaximin 200 mg three times a day (Answer)  
+   b) Creon 20 with meals (Distractor)  
+   c) Protonix (Irrelevant)  
+|
+10) How frequently should lab results be sent to Doctor after discharge?  
+    a) Weekly (Answer)  
+    b) Every three months (Distractor)  
+    c) Only once post-discharge (Irrelevant)",
+report7745,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION TRANSPLANT SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB M] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY] **NAME[ZZZ] ADMISSION DATE : **DATE[ Dec 18 2007] DISCHARGE DATE : **DATE[Feb 27 2008 ] DISCHARGE DIAGNOSIS(ES ) : REASON FOR ADMISSION : Mr. **NAME[BBB AAA ] is a **AGE[in 60s ] -year-old male patient who was electively admitted on **DATE[ Dec 18 2007] to undergo a single right lung transplant for IPF.
+The patient was taken to the OR where he underwent the transplant successfully .
+He was transferred to the CT-ICU to begin his recovery .
+He was weaned off the ventilator when able .
+He initially had significant difficulty with atrial fibrillation .
+This was controlled initially with Lopressor , however , it did result in later consults to Cardiology and further medications to control the atrial fib .
+He was transferred to the 9D post transplant floor when he was felt to be stable .
+Cultures from the time of transplant **DATE[ Jul 19] , were positive only for staph aureus .
+He was treated with appropriate antibiotics for this .
+The patient 's course on 9D was complicated by one transfer back to the CT-ICU initially for drop in his O2 saturations and control of his cardiac rhythm .
+He then developed a pleural effusion while back on the 9D post transplant floor .
+This initially was attempted to be drained with a pigtail catheter .
+This was unsuccessful and the effusion reaccumulated .
+He was , therefore , taken back to the OR for a VATS procedure .
+He tolerated that well and over time his chest tube was discontinued .
+He again continued to have intermittent problems with the atrial fibrillation which was finally controlled with medication .
+On his second admission back to the CT-ICU , he did require tracheostomy placement .
+We were able to wean him off of this , and decannulate him during his stay on the 9D post transplant floor .
+On **DATE[Feb 27 2008] , he was felt to be stable to be stable to discharge home since he lived local .
+DISCHARGE MEDICATIONS : 1 .
+Plavix 75 mg one pill daily . 2.
+Aspirin 81 mg daily . 3.
+Coumadin 1 mg daily . 4 .
+Digoxin 0.25 mg one pill daily . 5 .
+Colace 100 mg twice a day . 6 .
+Lasix 40 mg daily . 7.
+Mag gluconate 500 mg two pills twice a day . 8.
+Reglan 5 mg one pill three times a day with meals . 9 .
+Lopressor 50 mg one pill twice a day . 10 .
+CellCept 250 mg three pills twice a day . 11 .
+Protonix 40 mg daily . 12 .
+Prednisone 5 mg daily with food . 13 .
+Prandin 1 mg one pill three times a day with meals . 14 .
+Prograf 1 mg two times daily with a target goal of 12 to 15 . 15 .
+Valcyte 450 mg daily . 16 .
+Voriconazole 200 mg twice a day . 17 .
+Bactrim single strength , one pill on Monday , Wednesday and Friday .
+DISCHARGE INSTRUCTIONS : 1 .
+He was advised to slowly increase activity as tolerated to avoid fatigue . 2.
+He may lift up to 10 pounds gradually over the first 3 months . 3.
+May ride in a car for short distances , taking frequent rest periods .
+If traveling more than 2 hours , stop and stretch .
+Wear seat belt while in the car .
+He was instructed to check his blood sugar once daily fasting .
+To check temperature if taking Tylenol , did not feel well or felt warm . 4 .
+No smoking , no alcohol . 5 .
+If on a blood thinner do not change furnace filter , liter boxes , bird cages , __ _ _ __ , avoid anything with old standing water , mold or mildew . 6 .
+Avoid individuals who may be ill .
+Use micro-spirometer three times weekly , Monday , Wednesday and Friday and record readings in the log book . 7.
+He was advised to remember to wash his hands thoroughly , especially before eating . 8.
+Follow-up care with regards to further appointments .
+He was advised to notify his outpatient coordinators , either **NAME[VVV , UUU, TTT] or **NAME[SSS] at **PHONE. 9 .
+If he notices signs or symptoms of infection , temperature of 101 or higher , chills , productive cough , redness or drainage from incision sites , increased shortness of breath or decreased exercise tolerance , decrease in micro-spirometer readings , greater than 10 % of baseline , persistent nausea , vomiting , diarrhea , abdominal pain , black , tarry or bloody stools , blood pressure consistently greater than 160/100 or less than 90/60 , weight gain greater than 3 to 5 pounds , less than 3 to 4 days , persistent unintentional weight loss , loss of appetite , swelling of hands , feet , or legs that is unusual , chest pain or palpitations . 10 .
+His next surveillance biopsy is will be the week of **DATE[ Mar 10]th . **NAME[RRR] will call him with a date and time . 11 .
+He will lab work on Thursday **DATE[Feb 29 2008] .
+In addition to this , he will have lab work weekly on Mondays . 12 .
+His next follow up appointment with Dr. **NAME[QQQ] will be Wednesday , **DATE[ Mar 05]th . **NAME[RRR] will call with a time of that appointment .
+He will have home-care visits three times weekly for the next 3 weeks .
+They will perform his blood work .
+Follow up on his glucometer readings and peak flow meter readings . 13 .
+He was discharged to home in stable and improved condition .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY] **NAME[ZZZ] , M.D.
+
+Dictator : **NAME[WWW XXX] , PPP] , M.S.N. **INITIALS D : **DATE[Apr 02 2008 ] 19:22:39 T : **DATE[Apr 02 2008 ] 20:08:05 R: **DATE[Apr 02 2008 ] 20:08:05/lmp Job ID : 511054/**ID-NUM Cc :
+
+*** Dictated By : -**NAME[XXX] , C.R.N.P. , M.S.N.-Susan *** Electronically Signed by **NAME[YYY ZZZ] **DATE[Apr 21 2008 ] 02:39:43 PM
+
+
+
+
+","1) What was the primary reason for this patient's admission?  
+   a) Single right lung transplant for IPF (Answer)  
+   b) Kidney transplant (Distractor)  
+   c) Heart surgery (Irrelevant)  
+|
+2) What complication did the patient experience post-transplant that required a procedure?  
+   a) Pleural effusion (Answer)  
+   b) Pneumonia (Distractor)  
+   c) Kidney stones (Irrelevant)  
+|
+3) Which medication was prescribed to prevent infection following the transplant?  
+   a) Valcyte 450 mg daily (Answer)  
+   b) Aspirin 81 mg daily (Distractor)  
+   c) Colace 100 mg twice daily (Irrelevant)  
+|
+4) What are the activity restrictions following discharge?  
+   a) May lift up to 10 pounds gradually over 3 months (Answer)  
+   b) No lifting restrictions (Distractor)  
+   c) Only bed rest for 3 months (Irrelevant)  
+|
+5) When should the patient seek immediate medical attention?  
+   a) If experiencing temperature of 101°F or higher (Answer)  
+   b) If feeling tired (Distractor)  
+   c) If experiencing slight weight loss (Irrelevant)  
+|
+6) How often should the patient use a micro-spirometer post-discharge?  
+   a) Three times weekly (Answer)  
+   b) Daily (Distractor)  
+   c) Only once per week (Irrelevant)  
+|
+7) What home monitoring task is recommended daily for the patient?  
+   a) Check blood sugar (Answer)  
+   b) Measure blood pressure (Distractor)  
+   c) Record weight weekly (Irrelevant)  
+|
+8) Which follow-up care is scheduled on **DATE[Feb 29 2008]**?  
+   a) Lab work (Answer)  
+   b) Surveillance biopsy (Distractor)  
+   c) Physical therapy (Irrelevant)  
+|
+9) Which medication was prescribed for controlling atrial fibrillation?  
+   a) Lopressor 50 mg twice daily (Answer)  
+   b) Digoxin 0.25 mg daily (Distractor)  
+   c) Colace 100 mg twice daily (Irrelevant)  
+|
+10) How frequently are home-care visits scheduled for the patient after discharge?  
+   a) Three times weekly for three weeks (Answer)  
+   b) Daily for one month (Distractor)  
+   c) Once a week (Irrelevant)",
+report5923,,,,,,,"[ Report de-identified ( Safe-harbor compliant ) by De-ID v.6.22.07.0]
+
+
+
+**INSTITUTION TRANSPLANT SURGERY DISCHARGE SUMMARY PATIENT NAME : **NAME[AAA , BBB ] ACCOUNT # : **ID-NUM **ROOM ATTENDING PHYSICIAN : **NAME[YYY] **NAME[ZZZ] ADMISSION DATE : **DATE[Oct 22 2007] DISCHARGE DATE : **DATE[Oct 31 2007] REASON FOR ADMISSION : Mrs. **NAME[BBB AAA ] is a female patient who had underwent a double-lung transplant and was discharged from the hospital .
+She was seen in the Emergency Department complaining of bilateral lower extremity pain and edema .
+Venous Dopplers done at that time revealed bilateral DVTs of both lower extremities .
+She was , therefore , admitted to the 9D posttransplant floor .
+HOSPITAL COURSE : The patient was placed on IV heparin infusion .
+She was stable from a respiratory standpoint and continued to improve over the next several days .
+She did have some pain in both lower extremities as a result of these DVTs .
+Consults were placed to PT and OT to continue to ambulate the patient as she improved .
+The patient also experienced moderate depression as a result of this rehospitalization .
+We did start her on antidepressant therapy which resolved the problem .
+It was then determined that patient would be unable to tolerate giving herself injections of Lovenox for treatment of the DVT.
+It was , therefore , felt that we should start her on Coumadin therapy .
+Since she would require biopsies every two months , she was taken electively to the Interventional Radiology Department where she underwent placement of an IVC filter .
+On **DATE[Oct 31] , she was felt to be stable for discharge .
+She was discharged to a family residence in the **PLACE area .
+DISCHARGE INSTRUCTIONS : 1 .
+Discharge medications are as follows : ( a ) Coumadin 0.5 mg the night of discharge .
+On **DATE[ Nov 01 2007] , she will take 0.5 mg of Coumadin on **DATE[Oct 31 2007] and on **DATE[ Nov 01 2007] .
+She will have repeat lab work done on **DATE[ Nov 02 2007] .
+Her INR will be managed by the anticoagulation team at **INSTITUTION.
+( b ) Lexapro 20 mg daily .
+( c ) Magnesium gluconate 500 mg three pills b.i.d .
+( d ) Lopressor 25 mg b.i.d .
+( e ) CellCept 250 mg three pills b.i.d .
+( f ) Prilosec 20 mg daily .
+( g ) Prednisone 5 mg daily with food .
+( h ) Bactrim single strength one on Monday/Wednesday/Friday .
+( i ) Voriconazole 200 mg b.i.d .
+( j ) Prograf 0.5 mg in the morning , 0.5 mg in the p.m. , with a goal of 12 to 15 .
+( k ) Valcyte 450 mg two pills once daily . 2.
+The patient was instructed to notify our outpatient coordinator , **NAME[TTT] Lo Coco , at **PHONE if she notices any signs or symptoms of infection , temperature of 101.0 or higher , chills , productive cough , redness or drainage from the incision sites , increased shortness of breath or decreased exercise tolerance , decrease in micro spirometer readings greater than 10 % of baseline , persistent nausea , vomiting , diarrhea , abdominal pain , black , tarry , or bloody stools , blood pressure consistently greater than 160/100 or less than 90/60 , weight gain greater than 3 to 5 pounds in less than 3 to 4 days , persistent unintentional weight loss , loss of appetite , swelling of hands , feet , or legs that is unusual , chest pain or palpitations . 3.
+Her next surveillance bronchoscopy and biopsy will be in six weeks , the week of **DATE[ Nov 25] . **NAME[SSS] will call with the date and time . 4 .
+She is to have a PT , PTT , and INR on Friday , **DATE[ Nov 02 2007] .
+Otherwise lab work will be done weekly on Mondays .
+The number for the coagulation team at **INSTITUTION is **PHONE. 5 .
+She will see Dr. **NAME[RRR] in clinic on Wednesday , **DATE[ Nov 07] . **NAME[SSS] will call with the time of that appointment . 6 .
+Home care visits will be done three times weekly for the next three weeks .
+They will monitor her blood work , as well as her Glucometer and peak flow meter readings .
+CONDITION AT DISCHARGE : She was discharged to home in stable and improved condition .
+
+__ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ **NAME[YYY] **NAME[ZZZ] , M.D.
+
+Dictator : **NAME[WWW XXX] , QQQ] , M.S.N. **INITIALS D : **DATE[ Nov 23 2007] 15 :49:07 T : **DATE[ Nov 23 2007] 17 :15 :53 R: **DATE[ Dec 07 2007] 15 :45:09/sd Job ID : 401158/**ID-NUM
+
+*** Dictated By : -**NAME[XXX] , C.R.N.P. , M.S.N.-Susan *** Electronically Signed by **NAME[YYY ZZZ] **DATE[ Dec 14 2007] 07 :05 :43 AM
+
+
+
+
+","1) What was the primary reason for readmission?  
+   a) Bilateral lower extremity pain and edema due to DVTs (Answer)  
+   b) Respiratory infection (Distractor)  
+   c) Routine post-transplant checkup (Irrelevant)  
+|
+2) What therapy was initiated for moderate depression during hospitalization?  
+   a) Antidepressant therapy (Answer)  
+   b) Physical therapy (Distractor)  
+   c) Surgical intervention (Irrelevant)  
+|
+3) Which anticoagulant medication was prescribed upon discharge?  
+   a) Coumadin (Answer)  
+   b) Heparin (Distractor)  
+   c) Aspirin (Irrelevant)  
+|
+4) What procedure was performed to manage DVTs given the need for frequent biopsies?  
+   a) Placement of an IVC filter (Answer)  
+   b) Lung biopsy (Distractor)  
+   c) Heart catheterization (Irrelevant)  
+|
+5) How often will home care visits occur post-discharge?  
+   a) Three times weekly for three weeks (Answer)  
+   b) Once daily (Distractor)  
+   c) Weekly visits (Irrelevant)  
+|
+6) What signs or symptoms should prompt contacting the outpatient coordinator?  
+   a) Temperature of 101°F or higher, chills, productive cough (Answer)  
+   b) Feeling slightly fatigued (Distractor)  
+   c) Occasional headache (Irrelevant)  
+|
+7) When is the next scheduled surveillance bronchoscopy and biopsy?  
+   a) In six weeks (Answer)  
+   b) In one week (Distractor)  
+   c) In one month (Irrelevant)  
+|
+8) Which medication is prescribed to be taken three times weekly?  
+   a) Bactrim (Answer)  
+   b) Lopressor (Distractor)  
+   c) Prograf (Irrelevant)  
+|
+9) When should lab work for PT, PTT, and INR be done post-discharge?  
+   a) On Friday, **DATE[Nov 02 2007]** (Answer)  
+   b) On Monday, **DATE[Nov 05 2007]** (Distractor)  
+   c) On Thursday, **DATE[Nov 01 2007]** (Irrelevant)  
+|
+10) Which medication is prescribed with a goal of achieving a target level of 12 to 15?  
+   a) Prograf (Answer)  
+   b) Valcyte (Distractor)  
+   c) Prilosec (Irrelevant)",

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Notes and Questions Evaluation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/static/images/background.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #0056b3;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Login Section */
+        #login {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        #login label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        #username {
+            padding: 10px;
+            width: 280px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #startBtn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #startBtn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Annotation Tool Section */
+        #annotationTool {
+            display: none;
+            margin: auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .annotator-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+        .description-container {
+            background-color: #e8f0fe;
+            border: 1px solid #cfe2ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .toggle-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .toggle-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .description {
+            display: none;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 20px;
+            height: calc(100vh - 200px);
+        }
+
+        .text-container,
+        .question-container {
+            flex: 1;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 100%;
+        }
+
+        .question-item {
+            margin-bottom: 15px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .question-item p {
+            margin: 0 0 10px 0;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .comment-box {
+            width: 100%;
+            height: 60px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .pagination-controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .pagination-controls button {
+            padding: 10px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .pagination-controls button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .text-container,
+            .question-container {
+                width: 100%;
+                max-height: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Medical Notes and Questions Evaluation</h1>
+
+    <!-- Login Section -->
+    <div id="login">
+        <label for="username">Enter your annotator name:</label>
+        <input type="text" id="username" placeholder="Your name">
+        <button id="startBtn">Start Annotating</button>
+    </div>
+
+    <!-- Annotation Tool -->
+    <div id="annotationTool">
+        <div class="annotator-name" id="annotatorName"></div>
+        <div class="description-container">
+            <button class="toggle-btn" onclick="toggleDescription()">Toggle Instructions</button>
+            <div class="description" id="description" style="display: none;">
+                <h3>Guidelines for Gold Label dataset evaluators</h3>
+                <p>You are going to evaluate 5-10 questions for each discharge note. These questions should be clinically “relevant” and important for the patient. What is considered “relevant” is as follows:</p>
+                <ol>
+                    <li>It has to be acknowledged in the discharge note.</li>
+                    <li>It must concern the current health issues for that particular stay.</li>
+                    <li>It must relate to instructions from the medical doctor.</li>
+                    <li>The categories that questions could be asked from include:
+                        <ul>
+                            <li>Diagnosis during hospital stay</li>
+                            <li>Procedure (interventions/tests) during hospital stay</li>
+                            <li>Medication during hospital stay</li>
+                            <li>Diagnosis in discharge</li>
+                            <li>Procedure (follow up/tests/interventions) after discharge</li>
+                            <li>Medication after discharge</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>How to:</p>
+                <ul>
+                    <li>If you think the question is okay, please check relevant.</li>
+                    <li>If you consider that the question itself needs to be totally removed or changed please check irrelevant.</li>
+                    <li>If you consider the question is okay but needs some modification please check modify and leave a comment below how we should change the questions.</li>
+                    <li>If you checked irrelevant or modify please write what should be changed and guidance on how to fix the text or the question.</li>
+                </ul>
+                <h4>평가자를 위한 지침</h4>
+                <p>다음은 평가자들을 위한 지침입니다:</p>
+                <ol>
+                    <li>각 퇴원 요약서마다 5-10개의 질문을 평가해야 합니다.</li>
+                    <li>이 질문들은 임상적으로 "관련성"이 있어야 하며, 환자에게도 중요한 내용이어야 합니다.</li>
+                    <li>"관련성"으로 간주되는 기준은 다음과 같습니다:
+                        <ul>
+                            <li>질문 내용이 퇴원 요약서에 명시되어 있어야 합니다.</li>
+                            <li>해당 입원 기간 동안의 현재 건강 문제와 관련되어야 합니다.</li>
+                            <li>의료진(의사)의 지시에 관련되어야 합니다.</li>
+                        </ul>
+                    </li>
+                    <li>다음과 같은 범주에서 질문이 작성될 수 있습니다:
+                        <ul>
+                            <li>입원 기간 동안의 진단</li>
+                            <li>입원 기간 동안 시행된 처치(검사/중재)</li>
+                            <li>입원 기간 동안 복용한 약물</li>
+                            <li>퇴원 시 진단</li>
+                            <li>퇴원 후 필요한 처치(추적 검사/중재)</li>
+                            <li>퇴원 후 복용해야 할 약물</li>
+                        </ul>
+                    </li>
+                    <li>평가 방법:
+                        <ul>
+                            <li>질문이 적절하다고 판단되면 "Relevant"으로 체크하십시오.</li>
+                            <li>질문이 완전히 삭제되거나 변경되어야 한다고 판단되면 "Irrelevant"으로 체크하십시오.</li>
+                            <li>질문이 적절하지만 약간의 수정이 필요하다고 판단되면 "Modify"로 체크하고, 질문을 어떻게 수정해야 하는지 아래에 의견을 남겨주십시오.</li>
+                            <li>Irrelevant 혹은 Modify를 체크한 경우, 이유를 남겨주시고 변경 방향성도 제시해주십시오.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>            
+        </div>
+        <div id="content"></div>
+
+        <div class="pagination-controls">
+            <button id="prevBtn" style="display: none;">Previous</button>
+            <button id="nextBtn" style="display: none;">Next</button>
+            <button onclick="saveAnnotations()">Save Progress</button>
+            <button onclick="exitToLogin()">Exit</button>
+        </div>
+    </div>
+
+    <script>
+        let username = "";
+        let currentPage = 0;
+        let dataset = [];
+        let annotations = [];
+        let contentDiv = document.getElementById("content");
+
+        document.getElementById("startBtn").addEventListener("click", () => {
+            username = document.getElementById("username").value.trim();
+            if (username) {
+                document.getElementById("annotatorName").innerText = `Annotator: ${username}`;
+                loadAnnotations();
+            } else {
+                alert("Please enter your name to proceed.");
+            }
+        });
+        function toggleDescription() {
+            const description = document.getElementById("description");
+            description.style.display = description.style.display === "none" ? "block" : "none";
+        }
+
+
+        function loadAnnotations() {
+            fetch(`/load-annotations?username=${username}`)
+                .then(response => response.json())
+                .then(data => {
+                    annotations = data || [];
+                    loadDataset();
+                });
+        }
+
+        function loadDataset() {
+            fetch(`/get-data?username=${username}`)
+                .then(response => response.json())
+                .then(data => {
+                    dataset = data;
+                    document.getElementById("login").style.display = "none";
+                    document.getElementById("annotationTool").style.display = "block";
+                    generateContent();
+                    showPage(currentPage);
+                });
+        }
+
+        function generateContent() {
+            dataset.forEach((row, rowIndex) => {
+                if (row.text && row.questions) {
+                    let textDiv = document.createElement("div");
+                    textDiv.classList.add("content-page");
+
+                    let container = document.createElement("div");
+                    container.classList.add("container");
+
+                    let textContainer = document.createElement("div");
+                    textContainer.classList.add("text-container");
+                    textContainer.innerHTML = `<p>${row.text.replace(/\n/g, "<br>")}</p>`;
+
+                    let questionContainer = document.createElement("div");
+                    questionContainer.classList.add("question-container");
+
+                    row.questions.split("|").forEach((question, questionIndex) => {
+                        let annotation = annotations[rowIndex]?.[questionIndex] || {};
+                        let formattedQuestion = question.replace(/\s(a\))/g, "<br>a)")
+                                                        .replace(/\s(b\))/g, "<br>b)")
+                                                        .replace(/\s(c\))/g, "<br>c)");
+                        let questionItem = document.createElement("div");
+                        questionItem.classList.add("question-item");
+
+                        questionItem.innerHTML = `
+                            <p><strong>${formattedQuestion}</strong></p>
+                            <div class="options">
+                                <label><input type="radio" name="choice-${rowIndex}-${questionIndex}" value="Relevant" ${annotation.choice === "Relevant" ? "checked" : ""}> Relevant</label>
+                                <label><input type="radio" name="choice-${rowIndex}-${questionIndex}" value="Irrelevant" ${annotation.choice === "Irrelevant" ? "checked" : ""}> Irrelevant</label>
+                                <label><input type="radio" name="choice-${rowIndex}-${questionIndex}" value="Modify" ${annotation.choice === "Modify" ? "checked" : ""}> Modify</label>
+                            </div>
+                            <textarea class="comment-box" placeholder="Comment...">${annotation.comment || ""}</textarea>
+                        `;
+                        questionContainer.appendChild(questionItem);
+                    });
+
+                    container.appendChild(textContainer);
+                    container.appendChild(questionContainer);
+                    textDiv.appendChild(container);
+                    contentDiv.appendChild(textDiv);
+                }
+            });
+        }
+
+        function showPage(pageIndex) {
+            const pages = document.querySelectorAll('.content-page');
+            pages.forEach((page, index) => {
+                page.style.display = index === pageIndex ? "block" : "none";
+            });
+
+            document.getElementById("prevBtn").style.display = pageIndex === 0 ? "none" : "inline";
+            document.getElementById("nextBtn").style.display = pageIndex === dataset.length - 1 ? "none" : "inline";
+        }
+
+        document.getElementById("prevBtn").addEventListener("click", () => {
+            if (currentPage > 0) {
+                currentPage--;
+                showPage(currentPage);
+            }
+        });
+
+        document.getElementById("nextBtn").addEventListener("click", () => {
+            if (currentPage < dataset.length - 1) {
+                currentPage++;
+                showPage(currentPage);
+            }
+        });
+
+        function saveAnnotations() {
+    // Collect all annotation data from the pages
+    annotations = Array.from(document.querySelectorAll(".content-page")).map((page, pageIndex) => {
+        return Array.from(page.querySelectorAll(".question-item")).map((item, questionIndex) => ({
+            choice: item.querySelector(`input[name="choice-${pageIndex}-${questionIndex}"]:checked`)?.value || null,
+            comment: item.querySelector(".comment-box").value.trim() || ""
+        }));
+    });
+
+    // Ensure the username is not empty
+    if (!username) {
+        alert("Annotator name is missing. Please log in again.");
+        return;
+    }
+
+    // Send the annotations data to the backend
+    fetch("/save-annotations", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, annotations }) // Ensure the username is included
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.error) {
+                alert(`Error saving annotations: ${data.error}`);
+            } else {
+                alert(data.message || "Annotations saved successfully!");
+            }
+        })
+        .catch(err => {
+            console.error("Error saving annotations:", err);
+            alert("Failed to save annotations. Please try again.");
+        });
+        }
+
+
+        function exitToLogin() {
+    alert("Redirecting to the login page.");
+    // Hide the annotation tool and show the login page
+    document.getElementById("annotationTool").style.display = "none";
+    document.getElementById("login").style.display = "flex";
+
+    // Clear username and annotations to reset the state
+    username = "";
+    annotations = [];
+    contentDiv.innerHTML = ""; // Clear the content div 
+    }
+
+    </script>
+</body>
+</html>
