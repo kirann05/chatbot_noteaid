@@ -103,4 +103,6 @@ def static_files(filename):
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Default to 8000 if PORT is not set
+    print(f"Starting app on port: {port}")  # Debug line to print the port value
     app.run(host="0.0.0.0", port=port, debug=True)
+
