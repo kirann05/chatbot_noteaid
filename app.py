@@ -108,6 +108,24 @@ def download_annotations():
     # Serve the zip file for download
     return send_from_directory(".", annotations_zip, as_attachment=True)
 
+@app.route("/list-annotations", methods=["GET"])
+def list_annotations():
+    """Returns a list of available annotation files."""
+    try:
+        files = os.listdir(ANNOTATIONS_DIR)
+        return jsonify({"annotation_files": files})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/download-annotation/<filename>", methods=["GET"])
+def download_annotation(filename):
+    """Allows downloading of annotation files."""
+    file_path = os.path.join(ANNOTATIONS_DIR, filename)
+    if os.path.exists(file_path):
+        return send_from_directory(ANNOTATIONS_DIR, filename, as_attachment=True)
+    else:
+        return jsonify({"error": "File not found"}), 404
+        
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Default to 8000 if PORT is not set
     print(f"Starting app on port: {port}")  # Debug line to print the port value
